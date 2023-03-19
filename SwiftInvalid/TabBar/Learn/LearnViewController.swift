@@ -115,13 +115,23 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if indexPath.row == 0 {
-            let selectedTheme = themes[0]
             let lectureVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "LectureViewController") as! LectureViewController
-            lectureVC.theme = selectedTheme
             navigationController?.pushViewController(lectureVC, animated: true)
         } else if indexPath.row == 1 {
             let dataTypesLectureVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "dataTypesViewController") as! dataTypesViewController
             navigationController?.pushViewController(dataTypesLectureVC, animated: true)
+            
+        } else if indexPath.row == 2 {
+            let multilineLinesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "multilineLinesViewController") as! multilineLinesViewController
+            navigationController?.pushViewController(multilineLinesVC, animated: true)
+            
+        } else if indexPath.row == 3 {
+            let logicalTypesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "logicalTypesViewController") as! logicalTypesViewController
+            navigationController?.pushViewController(logicalTypesVC, animated: true)
+            
+        } else if indexPath.row == 4 {
+            let ArrayVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ArrayViewController") as! ArrayViewController
+            navigationController?.pushViewController(ArrayVC, animated: true)
             
             
         }

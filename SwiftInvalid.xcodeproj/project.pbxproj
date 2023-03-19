@@ -30,6 +30,9 @@
 		845AFFF629BCF00E00B760C8 /* Pods_SwiftInvalid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 845AFFF429BCF00E00B760C8 /* Pods_SwiftInvalid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84B27D7929C7088F00C840A7 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7829C7088F00C840A7 /* Themes.swift */; };
 		84B27D7B29C70A4600C840A7 /* dataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */; };
+		84B27D7D29C735E400C840A7 /* multilineLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */; };
+		84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */; };
+		84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D8229C7369F00C840A7 /* ArrayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +101,9 @@
 		845AFFF429BCF00E00B760C8 /* Pods_SwiftInvalid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftInvalid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B27D7829C7088F00C840A7 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
 		84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTypesViewController.swift; sourceTree = "<group>"; };
+		84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multilineLinesViewController.swift; sourceTree = "<group>"; };
+		84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logicalTypesViewController.swift; sourceTree = "<group>"; };
+		84B27D8229C7369F00C840A7 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
 		BE2968D162678C8E7378DFE2 /* Pods-SwiftInvalid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftInvalid.debug.xcconfig"; path = "Target Support Files/Pods-SwiftInvalid/Pods-SwiftInvalid.debug.xcconfig"; sourceTree = "<group>"; };
 		FFBF99D4D19EEB633F3062A5 /* libPods-SwiftInvalidTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftInvalidTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -251,10 +257,21 @@
 		845A005B29C5B66900B760C8 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
-				844DEDF029BA44F20053A2DB /* LectureViewController.swift */,
-				84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */,
+				84B27D8129C7366200C840A7 /* TheBasics */,
+				84B27D8229C7369F00C840A7 /* ArrayViewController.swift */,
 			);
 			path = Themes;
+			sourceTree = "<group>";
+		};
+		84B27D8129C7366200C840A7 /* TheBasics */ = {
+			isa = PBXGroup;
+			children = (
+				84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */,
+				84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */,
+				84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */,
+				844DEDF029BA44F20053A2DB /* LectureViewController.swift */,
+			);
+			path = TheBasics;
 			sourceTree = "<group>";
 		};
 		8D36CE08EFCE3C1EDD215876 /* Pods */ = {
@@ -508,14 +525,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B27D7929C7088F00C840A7 /* Themes.swift in Sources */,
+				84B27D7D29C735E400C840A7 /* multilineLinesViewController.swift in Sources */,
 				8435C06529915D6700413405 /* HomeViewController.swift in Sources */,
 				844DEDF129BA44F20053A2DB /* LectureViewController.swift in Sources */,
 				8435C02E2991537700413405 /* ViewController.swift in Sources */,
+				84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */,
 				8435C06B29915D9900413405 /* ForUsViewController.swift in Sources */,
 				8435C06D299163E600413405 /* LearnTableViewCell.swift in Sources */,
 				84B27D7B29C70A4600C840A7 /* dataTypesViewController.swift in Sources */,
 				8435C05F29915C4600413405 /* TabBarController.swift in Sources */,
 				8435C06929915D8900413405 /* ProgressViewController.swift in Sources */,
+				84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */,
 				8435C02A2991537700413405 /* AppDelegate.swift in Sources */,
 				8435C02C2991537700413405 /* SceneDelegate.swift in Sources */,
 				8435C06729915D7800413405 /* LearnViewController.swift in Sources */,

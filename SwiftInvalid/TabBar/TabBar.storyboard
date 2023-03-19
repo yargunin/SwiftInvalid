@@ -45,6 +45,55 @@
                                             <segue destination="AEy-vs-L60" kind="show" identifier="dataTypesViewController" id="Vrv-hc-d1F"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell2" id="ZpD-zW-unj">
+                                        <rect key="frame" x="0.0" y="136.66666793823242" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZpD-zW-unj" id="VOW-fY-sRh">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sjS-Ey-tJ8" kind="show" identifier="multilineLinesViewController" id="dCD-Ew-3h6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell3" id="mQW-f9-CX7">
+                                        <rect key="frame" x="0.0" y="180.33333587646484" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mQW-f9-CX7" id="bQ3-E4-SfJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="msr-by-WR9" kind="show" identifier="logicalTypesViewController" id="K4Z-wz-itz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell4" rowHeight="47" id="qva-nm-Qib">
+                                        <rect key="frame" x="0.0" y="224.00000381469727" width="393" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qva-nm-Qib" id="icN-9G-gTj">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="47"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="kcT-qv-mXU" kind="show" identifier="ArrayViewController" id="UIb-DX-mSF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell5" id="nbz-Bq-fNr">
+                                        <rect key="frame" x="0.0" y="271.00000381469727" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nbz-Bq-fNr" id="OLg-kK-gkf">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell6" id="JvG-mz-SeT">
+                                        <rect key="frame" x="0.0" y="314.66667175292969" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JvG-mz-SeT" id="Y3s-Zo-eZg">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="99w-j1-NPz" id="LD5-cT-SZL"/>
@@ -90,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FGU-xn-SRt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1940" y="1495"/>
+            <point key="canvasLocation" x="-2992" y="1506"/>
         </scene>
         <!--Data Types View Controller-->
         <scene sceneID="Yvf-Ej-sVI">
@@ -114,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLG-hQ-OaS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1334" y="1494"/>
+            <point key="canvasLocation" x="-2263" y="1506"/>
         </scene>
         <!--Практика-->
         <scene sceneID="aiq-0m-3BP">
@@ -183,6 +232,72 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T87-dn-xtP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="213" y="713"/>
+        </scene>
+        <!--Multiline Lines View Controller-->
+        <scene sceneID="7P0-6Y-pCh">
+            <objects>
+                <viewController storyboardIdentifier="multilineLinesViewController" id="sjS-Ey-tJ8" customClass="multilineLinesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="LectureViewController" id="W6T-bD-BXl" customClass="LearnTableViewCell" customModule="SwiftInvalid" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="HBB-kH-bxv">
+                                <rect key="frame" x="137" y="354" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9St-Oh-9CH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dip-TW-MfD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dFx-gF-bFy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1560" y="1506"/>
+        </scene>
+        <!--Logical Types View Controller-->
+        <scene sceneID="AZq-4h-n8u">
+            <objects>
+                <viewController storyboardIdentifier="logicalTypesViewController" id="msr-by-WR9" customClass="logicalTypesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="LectureViewController" id="OUC-80-gLv" customClass="LearnTableViewCell" customModule="SwiftInvalid" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qma-Bl-wsU">
+                                <rect key="frame" x="172" y="344" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B84-4T-y2w"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FB6-ug-2Ed"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fIY-jI-ftO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-856" y="1506"/>
+        </scene>
+        <!--Array View Controller-->
+        <scene sceneID="vme-Jl-Z7z">
+            <objects>
+                <viewController storyboardIdentifier="ArrayViewController" id="kcT-qv-mXU" customClass="ArrayViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="LectureViewController" id="np3-sz-SKX" customClass="LearnTableViewCell" customModule="SwiftInvalid" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CJw-RM-JUh">
+                                <rect key="frame" x="121" y="355" width="150" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Vx7-kR-Yvj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="heS-dZ-eqa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O3Z-Nc-ooe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-172" y="1506"/>
         </scene>
     </scenes>
     <resources>
