@@ -11,17 +11,6 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        enum UserDefaultsKeys: String {
-            case sections
-            case cells
-        }
-        
-        // Затем использовать так:
-        if let savedSections = UserDefaults.standard.array(forKey: "\(UserDefaultsKeys.sections.rawValue)") as? [String],
-           let savedCells = UserDefaults.standard.dictionary(forKey: "\(UserDefaultsKeys.cells.rawValue)") as? [String: [String]] {
-            self.sections = savedSections
-            self.cells = savedCells
-        }
         
         tableView.register(LearnTableViewCell.self, forCellReuseIdentifier: "cell")
         
@@ -103,6 +92,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             return UITableViewCell()
         }
         
+
         
         let sectionName = sections[indexPath.section]
         if let cellName = cells[sectionName]?[indexPath.row] {
@@ -117,6 +107,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
         if indexPath.row == 0 {
             let lectureVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "LectureViewController") as! LectureViewController
             navigationController?.pushViewController(lectureVC, animated: true)
+            
         } else if indexPath.row == 1 {
             let dataTypesLectureVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "dataTypesViewController") as! dataTypesViewController
             navigationController?.pushViewController(dataTypesLectureVC, animated: true)
