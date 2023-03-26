@@ -104,7 +104,6 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
         }
         
 
-        
         let sectionName = sections[indexPath.section]
         if let cellName = cells[sectionName]?[indexPath.row] {
             cell.textLabel?.text = cellName
@@ -200,8 +199,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             
         
             
-        
-            
+
         default:
             break
         }
