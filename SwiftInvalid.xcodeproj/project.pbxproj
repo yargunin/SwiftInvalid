@@ -25,6 +25,17 @@
 		8435C06929915D8900413405 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435C06829915D8900413405 /* ProgressViewController.swift */; };
 		8435C06B29915D9900413405 /* ForUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435C06A29915D9900413405 /* ForUsViewController.swift */; };
 		8435C06D299163E600413405 /* LearnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435C06C299163E600413405 /* LearnTableViewCell.swift */; };
+		8448EBEE29CF4F5E00B88CC0 /* AboutSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */; };
+		8448EBF029CF59E100B88CC0 /* AnnotationOfTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */; };
+		8448EBF229CF5B6200B88CC0 /* LetAndVarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */; };
+		8448EBF429CF5CC400B88CC0 /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBF329CF5CC400B88CC0 /* CommentsViewController.swift */; };
+		8448EBF629CF5D5E00B88CC0 /* IntegersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBF529CF5D5E00B88CC0 /* IntegersViewController.swift */; };
+		8448EBF829CF5DF800B88CC0 /* NumericLiteralsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBF729CF5DF800B88CC0 /* NumericLiteralsViewController.swift */; };
+		8448EBFA29CF5ED100B88CC0 /* ConvertingNumericTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBF929CF5ED100B88CC0 /* ConvertingNumericTypesViewController.swift */; };
+		8448EBFC29CF5F9800B88CC0 /* TuplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBFB29CF5F9800B88CC0 /* TuplesViewController.swift */; };
+		8448EBFE29CF60EF00B88CC0 /* OptionalTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBFD29CF60EF00B88CC0 /* OptionalTypesViewController.swift */; };
+		8448EC0029CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBFF29CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift */; };
+		8448EC0329CF62BF00B88CC0 /* AboutTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EC0229CF62BF00B88CC0 /* AboutTypesViewController.swift */; };
 		844DEDF129BA44F20053A2DB /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DEDF029BA44F20053A2DB /* LectureViewController.swift */; };
 		845AFFF529BCF00E00B760C8 /* Pods_SwiftInvalid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845AFFF429BCF00E00B760C8 /* Pods_SwiftInvalid.framework */; };
 		845AFFF629BCF00E00B760C8 /* Pods_SwiftInvalid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 845AFFF429BCF00E00B760C8 /* Pods_SwiftInvalid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -33,6 +44,8 @@
 		84B27D7D29C735E400C840A7 /* multilineLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */; };
 		84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */; };
 		84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D8229C7369F00C840A7 /* ArrayViewController.swift */; };
+		84C6D4BF29CEED2A0057A162 /* DictionariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6D4BE29CEED2A0057A162 /* DictionariesViewController.swift */; };
+		84C6D4C129CEF5130057A162 /* SetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6D4C029CEF5130057A162 /* SetsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +107,17 @@
 		8435C06829915D8900413405 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		8435C06A29915D9900413405 /* ForUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForUsViewController.swift; sourceTree = "<group>"; };
 		8435C06C299163E600413405 /* LearnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewCell.swift; sourceTree = "<group>"; };
+		8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSwiftViewController.swift; sourceTree = "<group>"; };
+		8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationOfTypesViewController.swift; sourceTree = "<group>"; };
+		8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetAndVarViewController.swift; sourceTree = "<group>"; };
+		8448EBF329CF5CC400B88CC0 /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		8448EBF529CF5D5E00B88CC0 /* IntegersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersViewController.swift; sourceTree = "<group>"; };
+		8448EBF729CF5DF800B88CC0 /* NumericLiteralsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericLiteralsViewController.swift; sourceTree = "<group>"; };
+		8448EBF929CF5ED100B88CC0 /* ConvertingNumericTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertingNumericTypesViewController.swift; sourceTree = "<group>"; };
+		8448EBFB29CF5F9800B88CC0 /* TuplesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuplesViewController.swift; sourceTree = "<group>"; };
+		8448EBFD29CF60EF00B88CC0 /* OptionalTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalTypesViewController.swift; sourceTree = "<group>"; };
+		8448EBFF29CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementsAndPreconditionsViewController.swift; sourceTree = "<group>"; };
+		8448EC0229CF62BF00B88CC0 /* AboutTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTypesViewController.swift; sourceTree = "<group>"; };
 		844DEDEC29B508D30053A2DB /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		844DEDF029BA44F20053A2DB /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
 		845AFFEA29BCEC3900B760C8 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +128,8 @@
 		84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multilineLinesViewController.swift; sourceTree = "<group>"; };
 		84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logicalTypesViewController.swift; sourceTree = "<group>"; };
 		84B27D8229C7369F00C840A7 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
+		84C6D4BE29CEED2A0057A162 /* DictionariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionariesViewController.swift; sourceTree = "<group>"; };
+		84C6D4C029CEF5130057A162 /* SetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsViewController.swift; sourceTree = "<group>"; };
 		BE2968D162678C8E7378DFE2 /* Pods-SwiftInvalid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftInvalid.debug.xcconfig"; path = "Target Support Files/Pods-SwiftInvalid/Pods-SwiftInvalid.debug.xcconfig"; sourceTree = "<group>"; };
 		FFBF99D4D19EEB633F3062A5 /* libPods-SwiftInvalidTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftInvalidTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -254,11 +280,22 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		8448EC0129CF622D00B88CC0 /* TypesOfCollections */ = {
+			isa = PBXGroup;
+			children = (
+				8448EC0229CF62BF00B88CC0 /* AboutTypesViewController.swift */,
+				84B27D8229C7369F00C840A7 /* ArrayViewController.swift */,
+				84C6D4C029CEF5130057A162 /* SetsViewController.swift */,
+				84C6D4BE29CEED2A0057A162 /* DictionariesViewController.swift */,
+			);
+			path = TypesOfCollections;
+			sourceTree = "<group>";
+		};
 		845A005B29C5B66900B760C8 /* Themes */ = {
 			isa = PBXGroup;
 			children = (
 				84B27D8129C7366200C840A7 /* TheBasics */,
-				84B27D8229C7369F00C840A7 /* ArrayViewController.swift */,
+				8448EC0129CF622D00B88CC0 /* TypesOfCollections */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -266,10 +303,20 @@
 		84B27D8129C7366200C840A7 /* TheBasics */ = {
 			isa = PBXGroup;
 			children = (
-				84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */,
-				84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */,
-				84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */,
+				8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */,
 				844DEDF029BA44F20053A2DB /* LectureViewController.swift */,
+				84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */,
+				84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */,
+				8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */,
+				8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */,
+				8448EBF329CF5CC400B88CC0 /* CommentsViewController.swift */,
+				8448EBF529CF5D5E00B88CC0 /* IntegersViewController.swift */,
+				8448EBF729CF5DF800B88CC0 /* NumericLiteralsViewController.swift */,
+				8448EBF929CF5ED100B88CC0 /* ConvertingNumericTypesViewController.swift */,
+				84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */,
+				8448EBFB29CF5F9800B88CC0 /* TuplesViewController.swift */,
+				8448EBFD29CF60EF00B88CC0 /* OptionalTypesViewController.swift */,
+				8448EBFF29CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift */,
 			);
 			path = TheBasics;
 			sourceTree = "<group>";
@@ -524,21 +571,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8448EBEE29CF4F5E00B88CC0 /* AboutSwiftViewController.swift in Sources */,
+				84C6D4BF29CEED2A0057A162 /* DictionariesViewController.swift in Sources */,
+				8448EBF429CF5CC400B88CC0 /* CommentsViewController.swift in Sources */,
+				8448EBFA29CF5ED100B88CC0 /* ConvertingNumericTypesViewController.swift in Sources */,
 				84B27D7929C7088F00C840A7 /* Themes.swift in Sources */,
 				84B27D7D29C735E400C840A7 /* multilineLinesViewController.swift in Sources */,
+				8448EBF229CF5B6200B88CC0 /* LetAndVarViewController.swift in Sources */,
 				8435C06529915D6700413405 /* HomeViewController.swift in Sources */,
+				8448EBF829CF5DF800B88CC0 /* NumericLiteralsViewController.swift in Sources */,
+				84C6D4C129CEF5130057A162 /* SetsViewController.swift in Sources */,
 				844DEDF129BA44F20053A2DB /* LectureViewController.swift in Sources */,
 				8435C02E2991537700413405 /* ViewController.swift in Sources */,
 				84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */,
+				8448EBF629CF5D5E00B88CC0 /* IntegersViewController.swift in Sources */,
 				8435C06B29915D9900413405 /* ForUsViewController.swift in Sources */,
 				8435C06D299163E600413405 /* LearnTableViewCell.swift in Sources */,
 				84B27D7B29C70A4600C840A7 /* dataTypesViewController.swift in Sources */,
+				8448EBFC29CF5F9800B88CC0 /* TuplesViewController.swift in Sources */,
+				8448EC0029CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift in Sources */,
 				8435C05F29915C4600413405 /* TabBarController.swift in Sources */,
+				8448EC0329CF62BF00B88CC0 /* AboutTypesViewController.swift in Sources */,
 				8435C06929915D8900413405 /* ProgressViewController.swift in Sources */,
 				84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */,
 				8435C02A2991537700413405 /* AppDelegate.swift in Sources */,
 				8435C02C2991537700413405 /* SceneDelegate.swift in Sources */,
 				8435C06729915D7800413405 /* LearnViewController.swift in Sources */,
+				8448EBFE29CF60EF00B88CC0 /* OptionalTypesViewController.swift in Sources */,
+				8448EBF029CF59E100B88CC0 /* AnnotationOfTypesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

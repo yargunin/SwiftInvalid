@@ -1,13 +1,13 @@
 //
-//  ProgressViewController.swift
+//  AboutTypesViewController.swift
 //  SwiftInvalid
 //
-//  Created by admin on 06.02.2023.
+//  Created by admin on 25.03.2023.
 //
 
 import UIKit
 
-class ProgressViewController: UIViewController {
+class AboutTypesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
