@@ -25,6 +25,36 @@
 		8435C06929915D8900413405 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435C06829915D8900413405 /* ProgressViewController.swift */; };
 		8435C06B29915D9900413405 /* ForUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435C06A29915D9900413405 /* ForUsViewController.swift */; };
 		8435C06D299163E600413405 /* LearnTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435C06C299163E600413405 /* LearnTableViewCell.swift */; };
+		8448498E29D32D2300FC1CF5 /* StringsAndSymbolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448498D29D32D2300FC1CF5 /* StringsAndSymbolsViewController.swift */; };
+		8448499029D32D4E00FC1CF5 /* StringLiteralsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448498F29D32D4E00FC1CF5 /* StringLiteralsViewController.swift */; };
+		8448499229D32D6800FC1CF5 /* InitializationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499129D32D6800FC1CF5 /* InitializationViewController.swift */; };
+		8448499429D32D9800FC1CF5 /* ConcatenationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499329D32D9800FC1CF5 /* ConcatenationViewController.swift */; };
+		8448499629D32DAE00FC1CF5 /* InterpolationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499529D32DAE00FC1CF5 /* InterpolationViewController.swift */; };
+		8448499829D32DCA00FC1CF5 /* UnicodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499729D32DCA00FC1CF5 /* UnicodeViewController.swift */; };
+		8448499A29D32DE700FC1CF5 /* CountingСharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499929D32DE700FC1CF5 /* CountingСharactersViewController.swift */; };
+		8448499C29D32E0B00FC1CF5 /* ModificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499B29D32E0B00FC1CF5 /* ModificationViewController.swift */; };
+		8448499E29D32E2400FC1CF5 /* SubstringsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499D29D32E2400FC1CF5 /* SubstringsViewController.swift */; };
+		844849A029D32E4200FC1CF5 /* StringAlignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448499F29D32E4200FC1CF5 /* StringAlignmentViewController.swift */; };
+		844849A329D330C000FC1CF5 /* BasicOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849A229D330C000FC1CF5 /* BasicOperatorsViewController.swift */; };
+		844849A529D330E400FC1CF5 /* AssignmentOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849A429D330E400FC1CF5 /* AssignmentOperatorsViewController.swift */; };
+		844849A729D3310100FC1CF5 /* ArithmeticOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849A629D3310100FC1CF5 /* ArithmeticOperatorsViewController.swift */; };
+		844849A929D3311B00FC1CF5 /* CompoundOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849A829D3311B00FC1CF5 /* CompoundOperatorsViewController.swift */; };
+		844849AB29D3313700FC1CF5 /* TernaryOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849AA29D3313700FC1CF5 /* TernaryOperatorViewController.swift */; };
+		844849AD29D3315B00FC1CF5 /* TheUnionOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849AC29D3315B00FC1CF5 /* TheUnionOperatorViewController.swift */; };
+		844849AF29D3317400FC1CF5 /* RangeOperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849AE29D3317400FC1CF5 /* RangeOperatorViewController.swift */; };
+		844849B129D3318900FC1CF5 /* LogicalOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849B029D3318900FC1CF5 /* LogicalOperatorsViewController.swift */; };
+		844849B329D331BC00FC1CF5 /* ComparisonOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849B229D331BC00FC1CF5 /* ComparisonOperatorsViewController.swift */; };
+		844849B629D332D400FC1CF5 /* FlowControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849B529D332D400FC1CF5 /* FlowControlViewController.swift */; };
+		844849B829D3330300FC1CF5 /* CyclesForInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849B729D3330300FC1CF5 /* CyclesForInViewController.swift */; };
+		844849BA29D3331900FC1CF5 /* CyclesWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849B929D3331900FC1CF5 /* CyclesWhileViewController.swift */; };
+		844849BC29D3334B00FC1CF5 /* ConditionalInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849BB29D3334B00FC1CF5 /* ConditionalInstructionsViewController.swift */; };
+		844849BE29D3336600FC1CF5 /* TransmissionOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849BD29D3336600FC1CF5 /* TransmissionOperatorsViewController.swift */; };
+		844849C029D3337C00FC1CF5 /* EarlyExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849BF29D3337C00FC1CF5 /* EarlyExitViewController.swift */; };
+		844849C429D3353400FC1CF5 /* FunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849C329D3353400FC1CF5 /* FunctionsViewController.swift */; };
+		844849C629D3355600FC1CF5 /* AnnouncementAndChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849C529D3355600FC1CF5 /* AnnouncementAndChallengeViewController.swift */; };
+		844849C829D3356A00FC1CF5 /* FunctionParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849C729D3356A00FC1CF5 /* FunctionParametersViewController.swift */; };
+		844849CA29D3358D00FC1CF5 /* ArgumentLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849C929D3358D00FC1CF5 /* ArgumentLabelsViewController.swift */; };
+		844849CC29D335A500FC1CF5 /* FunctionalTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849CB29D335A500FC1CF5 /* FunctionalTypesViewController.swift */; };
 		8448EBEE29CF4F5E00B88CC0 /* AboutSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */; };
 		8448EBF029CF59E100B88CC0 /* AnnotationOfTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */; };
 		8448EBF229CF5B6200B88CC0 /* LetAndVarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */; };
@@ -107,6 +137,36 @@
 		8435C06829915D8900413405 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
 		8435C06A29915D9900413405 /* ForUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForUsViewController.swift; sourceTree = "<group>"; };
 		8435C06C299163E600413405 /* LearnTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnTableViewCell.swift; sourceTree = "<group>"; };
+		8448498D29D32D2300FC1CF5 /* StringsAndSymbolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsAndSymbolsViewController.swift; sourceTree = "<group>"; };
+		8448498F29D32D4E00FC1CF5 /* StringLiteralsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringLiteralsViewController.swift; sourceTree = "<group>"; };
+		8448499129D32D6800FC1CF5 /* InitializationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializationViewController.swift; sourceTree = "<group>"; };
+		8448499329D32D9800FC1CF5 /* ConcatenationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatenationViewController.swift; sourceTree = "<group>"; };
+		8448499529D32DAE00FC1CF5 /* InterpolationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationViewController.swift; sourceTree = "<group>"; };
+		8448499729D32DCA00FC1CF5 /* UnicodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodeViewController.swift; sourceTree = "<group>"; };
+		8448499929D32DE700FC1CF5 /* CountingСharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CountingСharactersViewController.swift"; sourceTree = "<group>"; };
+		8448499B29D32E0B00FC1CF5 /* ModificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModificationViewController.swift; sourceTree = "<group>"; };
+		8448499D29D32E2400FC1CF5 /* SubstringsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstringsViewController.swift; sourceTree = "<group>"; };
+		8448499F29D32E4200FC1CF5 /* StringAlignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAlignmentViewController.swift; sourceTree = "<group>"; };
+		844849A229D330C000FC1CF5 /* BasicOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicOperatorsViewController.swift; sourceTree = "<group>"; };
+		844849A429D330E400FC1CF5 /* AssignmentOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentOperatorsViewController.swift; sourceTree = "<group>"; };
+		844849A629D3310100FC1CF5 /* ArithmeticOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticOperatorsViewController.swift; sourceTree = "<group>"; };
+		844849A829D3311B00FC1CF5 /* CompoundOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompoundOperatorsViewController.swift; sourceTree = "<group>"; };
+		844849AA29D3313700FC1CF5 /* TernaryOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperatorViewController.swift; sourceTree = "<group>"; };
+		844849AC29D3315B00FC1CF5 /* TheUnionOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUnionOperatorViewController.swift; sourceTree = "<group>"; };
+		844849AE29D3317400FC1CF5 /* RangeOperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeOperatorViewController.swift; sourceTree = "<group>"; };
+		844849B029D3318900FC1CF5 /* LogicalOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicalOperatorsViewController.swift; sourceTree = "<group>"; };
+		844849B229D331BC00FC1CF5 /* ComparisonOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonOperatorsViewController.swift; sourceTree = "<group>"; };
+		844849B529D332D400FC1CF5 /* FlowControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowControlViewController.swift; sourceTree = "<group>"; };
+		844849B729D3330300FC1CF5 /* CyclesForInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclesForInViewController.swift; sourceTree = "<group>"; };
+		844849B929D3331900FC1CF5 /* CyclesWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclesWhileViewController.swift; sourceTree = "<group>"; };
+		844849BB29D3334B00FC1CF5 /* ConditionalInstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalInstructionsViewController.swift; sourceTree = "<group>"; };
+		844849BD29D3336600FC1CF5 /* TransmissionOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransmissionOperatorsViewController.swift; sourceTree = "<group>"; };
+		844849BF29D3337C00FC1CF5 /* EarlyExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyExitViewController.swift; sourceTree = "<group>"; };
+		844849C329D3353400FC1CF5 /* FunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsViewController.swift; sourceTree = "<group>"; };
+		844849C529D3355600FC1CF5 /* AnnouncementAndChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementAndChallengeViewController.swift; sourceTree = "<group>"; };
+		844849C729D3356A00FC1CF5 /* FunctionParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionParametersViewController.swift; sourceTree = "<group>"; };
+		844849C929D3358D00FC1CF5 /* ArgumentLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentLabelsViewController.swift; sourceTree = "<group>"; };
+		844849CB29D335A500FC1CF5 /* FunctionalTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalTypesViewController.swift; sourceTree = "<group>"; };
 		8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSwiftViewController.swift; sourceTree = "<group>"; };
 		8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationOfTypesViewController.swift; sourceTree = "<group>"; };
 		8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetAndVarViewController.swift; sourceTree = "<group>"; };
@@ -280,6 +340,64 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		8448498C29D32CEA00FC1CF5 /* StringsAndSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				8448498D29D32D2300FC1CF5 /* StringsAndSymbolsViewController.swift */,
+				8448498F29D32D4E00FC1CF5 /* StringLiteralsViewController.swift */,
+				8448499129D32D6800FC1CF5 /* InitializationViewController.swift */,
+				8448499329D32D9800FC1CF5 /* ConcatenationViewController.swift */,
+				8448499529D32DAE00FC1CF5 /* InterpolationViewController.swift */,
+				8448499729D32DCA00FC1CF5 /* UnicodeViewController.swift */,
+				8448499929D32DE700FC1CF5 /* CountingСharactersViewController.swift */,
+				8448499B29D32E0B00FC1CF5 /* ModificationViewController.swift */,
+				8448499D29D32E2400FC1CF5 /* SubstringsViewController.swift */,
+				8448499F29D32E4200FC1CF5 /* StringAlignmentViewController.swift */,
+			);
+			path = StringsAndSymbols;
+			sourceTree = "<group>";
+		};
+		844849A129D3309400FC1CF5 /* BasicOperators */ = {
+			isa = PBXGroup;
+			children = (
+				844849A229D330C000FC1CF5 /* BasicOperatorsViewController.swift */,
+				844849A429D330E400FC1CF5 /* AssignmentOperatorsViewController.swift */,
+				844849A629D3310100FC1CF5 /* ArithmeticOperatorsViewController.swift */,
+				844849A829D3311B00FC1CF5 /* CompoundOperatorsViewController.swift */,
+				844849B229D331BC00FC1CF5 /* ComparisonOperatorsViewController.swift */,
+				844849AA29D3313700FC1CF5 /* TernaryOperatorViewController.swift */,
+				844849AC29D3315B00FC1CF5 /* TheUnionOperatorViewController.swift */,
+				844849AE29D3317400FC1CF5 /* RangeOperatorViewController.swift */,
+				844849B029D3318900FC1CF5 /* LogicalOperatorsViewController.swift */,
+			);
+			path = BasicOperators;
+			sourceTree = "<group>";
+		};
+		844849B429D332C300FC1CF5 /* FlowControl */ = {
+			isa = PBXGroup;
+			children = (
+				844849B529D332D400FC1CF5 /* FlowControlViewController.swift */,
+				844849B729D3330300FC1CF5 /* CyclesForInViewController.swift */,
+				844849B929D3331900FC1CF5 /* CyclesWhileViewController.swift */,
+				844849BB29D3334B00FC1CF5 /* ConditionalInstructionsViewController.swift */,
+				844849BD29D3336600FC1CF5 /* TransmissionOperatorsViewController.swift */,
+				844849BF29D3337C00FC1CF5 /* EarlyExitViewController.swift */,
+			);
+			path = FlowControl;
+			sourceTree = "<group>";
+		};
+		844849C229D334F200FC1CF5 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				844849C329D3353400FC1CF5 /* FunctionsViewController.swift */,
+				844849C529D3355600FC1CF5 /* AnnouncementAndChallengeViewController.swift */,
+				844849C729D3356A00FC1CF5 /* FunctionParametersViewController.swift */,
+				844849C929D3358D00FC1CF5 /* ArgumentLabelsViewController.swift */,
+				844849CB29D335A500FC1CF5 /* FunctionalTypesViewController.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
 		8448EC0129CF622D00B88CC0 /* TypesOfCollections */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,7 +413,11 @@
 			isa = PBXGroup;
 			children = (
 				84B27D8129C7366200C840A7 /* TheBasics */,
+				844849A129D3309400FC1CF5 /* BasicOperators */,
+				8448498C29D32CEA00FC1CF5 /* StringsAndSymbols */,
 				8448EC0129CF622D00B88CC0 /* TypesOfCollections */,
+				844849B429D332C300FC1CF5 /* FlowControl */,
+				844849C229D334F200FC1CF5 /* Functions */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -571,11 +693,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844849C629D3355600FC1CF5 /* AnnouncementAndChallengeViewController.swift in Sources */,
 				8448EBEE29CF4F5E00B88CC0 /* AboutSwiftViewController.swift in Sources */,
+				844849A529D330E400FC1CF5 /* AssignmentOperatorsViewController.swift in Sources */,
+				844849B629D332D400FC1CF5 /* FlowControlViewController.swift in Sources */,
+				844849CA29D3358D00FC1CF5 /* ArgumentLabelsViewController.swift in Sources */,
 				84C6D4BF29CEED2A0057A162 /* DictionariesViewController.swift in Sources */,
 				8448EBF429CF5CC400B88CC0 /* CommentsViewController.swift in Sources */,
+				8448499429D32D9800FC1CF5 /* ConcatenationViewController.swift in Sources */,
+				8448499E29D32E2400FC1CF5 /* SubstringsViewController.swift in Sources */,
 				8448EBFA29CF5ED100B88CC0 /* ConvertingNumericTypesViewController.swift in Sources */,
+				844849BE29D3336600FC1CF5 /* TransmissionOperatorsViewController.swift in Sources */,
+				844849C829D3356A00FC1CF5 /* FunctionParametersViewController.swift in Sources */,
+				844849B329D331BC00FC1CF5 /* ComparisonOperatorsViewController.swift in Sources */,
+				844849C029D3337C00FC1CF5 /* EarlyExitViewController.swift in Sources */,
+				844849A929D3311B00FC1CF5 /* CompoundOperatorsViewController.swift in Sources */,
+				844849CC29D335A500FC1CF5 /* FunctionalTypesViewController.swift in Sources */,
 				84B27D7929C7088F00C840A7 /* Themes.swift in Sources */,
+				844849AF29D3317400FC1CF5 /* RangeOperatorViewController.swift in Sources */,
+				8448499829D32DCA00FC1CF5 /* UnicodeViewController.swift in Sources */,
+				8448499029D32D4E00FC1CF5 /* StringLiteralsViewController.swift in Sources */,
+				844849B829D3330300FC1CF5 /* CyclesForInViewController.swift in Sources */,
 				84B27D7D29C735E400C840A7 /* multilineLinesViewController.swift in Sources */,
 				8448EBF229CF5B6200B88CC0 /* LetAndVarViewController.swift in Sources */,
 				8435C06529915D6700413405 /* HomeViewController.swift in Sources */,
@@ -583,21 +721,35 @@
 				84C6D4C129CEF5130057A162 /* SetsViewController.swift in Sources */,
 				844DEDF129BA44F20053A2DB /* LectureViewController.swift in Sources */,
 				8435C02E2991537700413405 /* ViewController.swift in Sources */,
+				844849C429D3353400FC1CF5 /* FunctionsViewController.swift in Sources */,
 				84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */,
+				8448499C29D32E0B00FC1CF5 /* ModificationViewController.swift in Sources */,
 				8448EBF629CF5D5E00B88CC0 /* IntegersViewController.swift in Sources */,
+				8448499229D32D6800FC1CF5 /* InitializationViewController.swift in Sources */,
 				8435C06B29915D9900413405 /* ForUsViewController.swift in Sources */,
 				8435C06D299163E600413405 /* LearnTableViewCell.swift in Sources */,
+				844849A329D330C000FC1CF5 /* BasicOperatorsViewController.swift in Sources */,
 				84B27D7B29C70A4600C840A7 /* dataTypesViewController.swift in Sources */,
 				8448EBFC29CF5F9800B88CC0 /* TuplesViewController.swift in Sources */,
+				844849BA29D3331900FC1CF5 /* CyclesWhileViewController.swift in Sources */,
+				8448499A29D32DE700FC1CF5 /* CountingСharactersViewController.swift in Sources */,
+				844849A029D32E4200FC1CF5 /* StringAlignmentViewController.swift in Sources */,
 				8448EC0029CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift in Sources */,
+				844849BC29D3334B00FC1CF5 /* ConditionalInstructionsViewController.swift in Sources */,
 				8435C05F29915C4600413405 /* TabBarController.swift in Sources */,
+				844849AB29D3313700FC1CF5 /* TernaryOperatorViewController.swift in Sources */,
+				844849AD29D3315B00FC1CF5 /* TheUnionOperatorViewController.swift in Sources */,
 				8448EC0329CF62BF00B88CC0 /* AboutTypesViewController.swift in Sources */,
 				8435C06929915D8900413405 /* ProgressViewController.swift in Sources */,
 				84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */,
 				8435C02A2991537700413405 /* AppDelegate.swift in Sources */,
 				8435C02C2991537700413405 /* SceneDelegate.swift in Sources */,
 				8435C06729915D7800413405 /* LearnViewController.swift in Sources */,
+				844849A729D3310100FC1CF5 /* ArithmeticOperatorsViewController.swift in Sources */,
 				8448EBFE29CF60EF00B88CC0 /* OptionalTypesViewController.swift in Sources */,
+				8448499629D32DAE00FC1CF5 /* InterpolationViewController.swift in Sources */,
+				8448498E29D32D2300FC1CF5 /* StringsAndSymbolsViewController.swift in Sources */,
+				844849B129D3318900FC1CF5 /* LogicalOperatorsViewController.swift in Sources */,
 				8448EBF029CF59E100B88CC0 /* AnnotationOfTypesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
