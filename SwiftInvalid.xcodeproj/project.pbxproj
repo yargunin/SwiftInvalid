@@ -55,6 +55,28 @@
 		844849C829D3356A00FC1CF5 /* FunctionParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849C729D3356A00FC1CF5 /* FunctionParametersViewController.swift */; };
 		844849CA29D3358D00FC1CF5 /* ArgumentLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849C929D3358D00FC1CF5 /* ArgumentLabelsViewController.swift */; };
 		844849CC29D335A500FC1CF5 /* FunctionalTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849CB29D335A500FC1CF5 /* FunctionalTypesViewController.swift */; };
+		844849CF29D337BB00FC1CF5 /* ClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849CE29D337BB00FC1CF5 /* ClosuresViewController.swift */; };
+		844849D129D337D600FC1CF5 /* ClosingExpressionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849D029D337D600FC1CF5 /* ClosingExpressionsViewController.swift */; };
+		844849D329D337F400FC1CF5 /* SubsequentClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849D229D337F400FC1CF5 /* SubsequentClosuresViewController.swift */; };
+		844849D529D3380800FC1CF5 /* CapturingValuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849D429D3380800FC1CF5 /* CapturingValuesViewController.swift */; };
+		844849D729D3382E00FC1CF5 /* ReferentialClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849D629D3382E00FC1CF5 /* ReferentialClosuresViewController.swift */; };
+		844849DA29D338FE00FC1CF5 /* TransfersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849D929D338FE00FC1CF5 /* TransfersViewController.swift */; };
+		844849DC29D3391D00FC1CF5 /* EnumerationSyntaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849DB29D3391D00FC1CF5 /* EnumerationSyntaxViewController.swift */; };
+		844849DE29D3393B00FC1CF5 /* UsingEnumerationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849DD29D3393B00FC1CF5 /* UsingEnumerationsViewController.swift */; };
+		844849E029D3395900FC1CF5 /* CaseByCase ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849DF29D3395900FC1CF5 /* CaseByCase ViewController.swift */; };
+		844849E229D3397F00FC1CF5 /* AssociativeValuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849E129D3397F00FC1CF5 /* AssociativeValuesViewController.swift */; };
+		844849E429D3399400FC1CF5 /* InitialValuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849E329D3399400FC1CF5 /* InitialValuesViewController.swift */; };
+		844849E729D33A4200FC1CF5 /* StructuresAndClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849E629D33A4200FC1CF5 /* StructuresAndClassesViewController.swift */; };
+		844849E929D33A5800FC1CF5 /* ClassComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849E829D33A5800FC1CF5 /* ClassComparisonViewController.swift */; };
+		844849EB29D33A7800FC1CF5 /* StructuresAndEnumerationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849EA29D33A7800FC1CF5 /* StructuresAndEnumerationsViewController.swift */; };
+		844849ED29D33A9B00FC1CF5 /* ReferenceClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849EC29D33A9B00FC1CF5 /* ReferenceClassesViewController.swift */; };
+		844849F029D33B3100FC1CF5 /* FeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849EF29D33B3100FC1CF5 /* FeaturesViewController.swift */; };
+		844849F229D33B4400FC1CF5 /* StoragePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849F129D33B4400FC1CF5 /* StoragePropertiesViewController.swift */; };
+		844849F429D33B5F00FC1CF5 /* CalculatedPropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849F329D33B5F00FC1CF5 /* CalculatedPropertiesViewController.swift */; };
+		844849F629D33B8900FC1CF5 /* PropertyObserversViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849F529D33B8900FC1CF5 /* PropertyObserversViewController.swift */; };
+		844849F829D33BA600FC1CF5 /* WrappersForPropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849F729D33BA600FC1CF5 /* WrappersForPropertiesViewController.swift */; };
+		844849FA29D33BC300FC1CF5 /* GlobalAndLocalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849F929D33BC300FC1CF5 /* GlobalAndLocalViewController.swift */; };
+		844849FC29D33BD600FC1CF5 /* TypePropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844849FB29D33BD600FC1CF5 /* TypePropertiesViewController.swift */; };
 		8448EBEE29CF4F5E00B88CC0 /* AboutSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */; };
 		8448EBF029CF59E100B88CC0 /* AnnotationOfTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */; };
 		8448EBF229CF5B6200B88CC0 /* LetAndVarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */; };
@@ -167,6 +189,28 @@
 		844849C729D3356A00FC1CF5 /* FunctionParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionParametersViewController.swift; sourceTree = "<group>"; };
 		844849C929D3358D00FC1CF5 /* ArgumentLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentLabelsViewController.swift; sourceTree = "<group>"; };
 		844849CB29D335A500FC1CF5 /* FunctionalTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionalTypesViewController.swift; sourceTree = "<group>"; };
+		844849CE29D337BB00FC1CF5 /* ClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresViewController.swift; sourceTree = "<group>"; };
+		844849D029D337D600FC1CF5 /* ClosingExpressionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosingExpressionsViewController.swift; sourceTree = "<group>"; };
+		844849D229D337F400FC1CF5 /* SubsequentClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubsequentClosuresViewController.swift; sourceTree = "<group>"; };
+		844849D429D3380800FC1CF5 /* CapturingValuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturingValuesViewController.swift; sourceTree = "<group>"; };
+		844849D629D3382E00FC1CF5 /* ReferentialClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferentialClosuresViewController.swift; sourceTree = "<group>"; };
+		844849D929D338FE00FC1CF5 /* TransfersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransfersViewController.swift; sourceTree = "<group>"; };
+		844849DB29D3391D00FC1CF5 /* EnumerationSyntaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationSyntaxViewController.swift; sourceTree = "<group>"; };
+		844849DD29D3393B00FC1CF5 /* UsingEnumerationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingEnumerationsViewController.swift; sourceTree = "<group>"; };
+		844849DF29D3395900FC1CF5 /* CaseByCase ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaseByCase ViewController.swift"; sourceTree = "<group>"; };
+		844849E129D3397F00FC1CF5 /* AssociativeValuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociativeValuesViewController.swift; sourceTree = "<group>"; };
+		844849E329D3399400FC1CF5 /* InitialValuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialValuesViewController.swift; sourceTree = "<group>"; };
+		844849E629D33A4200FC1CF5 /* StructuresAndClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresAndClassesViewController.swift; sourceTree = "<group>"; };
+		844849E829D33A5800FC1CF5 /* ClassComparisonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassComparisonViewController.swift; sourceTree = "<group>"; };
+		844849EA29D33A7800FC1CF5 /* StructuresAndEnumerationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuresAndEnumerationsViewController.swift; sourceTree = "<group>"; };
+		844849EC29D33A9B00FC1CF5 /* ReferenceClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceClassesViewController.swift; sourceTree = "<group>"; };
+		844849EF29D33B3100FC1CF5 /* FeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesViewController.swift; sourceTree = "<group>"; };
+		844849F129D33B4400FC1CF5 /* StoragePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoragePropertiesViewController.swift; sourceTree = "<group>"; };
+		844849F329D33B5F00FC1CF5 /* CalculatedPropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatedPropertiesViewController.swift; sourceTree = "<group>"; };
+		844849F529D33B8900FC1CF5 /* PropertyObserversViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyObserversViewController.swift; sourceTree = "<group>"; };
+		844849F729D33BA600FC1CF5 /* WrappersForPropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrappersForPropertiesViewController.swift; sourceTree = "<group>"; };
+		844849F929D33BC300FC1CF5 /* GlobalAndLocalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalAndLocalViewController.swift; sourceTree = "<group>"; };
+		844849FB29D33BD600FC1CF5 /* TypePropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePropertiesViewController.swift; sourceTree = "<group>"; };
 		8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutSwiftViewController.swift; sourceTree = "<group>"; };
 		8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationOfTypesViewController.swift; sourceTree = "<group>"; };
 		8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetAndVarViewController.swift; sourceTree = "<group>"; };
@@ -398,6 +442,56 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		844849CD29D337A700FC1CF5 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				844849CE29D337BB00FC1CF5 /* ClosuresViewController.swift */,
+				844849D029D337D600FC1CF5 /* ClosingExpressionsViewController.swift */,
+				844849D229D337F400FC1CF5 /* SubsequentClosuresViewController.swift */,
+				844849D429D3380800FC1CF5 /* CapturingValuesViewController.swift */,
+				844849D629D3382E00FC1CF5 /* ReferentialClosuresViewController.swift */,
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
+		844849D829D338EC00FC1CF5 /* Transfers */ = {
+			isa = PBXGroup;
+			children = (
+				844849D929D338FE00FC1CF5 /* TransfersViewController.swift */,
+				844849DB29D3391D00FC1CF5 /* EnumerationSyntaxViewController.swift */,
+				844849DD29D3393B00FC1CF5 /* UsingEnumerationsViewController.swift */,
+				844849DF29D3395900FC1CF5 /* CaseByCase ViewController.swift */,
+				844849E129D3397F00FC1CF5 /* AssociativeValuesViewController.swift */,
+				844849E329D3399400FC1CF5 /* InitialValuesViewController.swift */,
+			);
+			path = Transfers;
+			sourceTree = "<group>";
+		};
+		844849E529D33A1D00FC1CF5 /* StructuresAndClasses */ = {
+			isa = PBXGroup;
+			children = (
+				844849E629D33A4200FC1CF5 /* StructuresAndClassesViewController.swift */,
+				844849E829D33A5800FC1CF5 /* ClassComparisonViewController.swift */,
+				844849EA29D33A7800FC1CF5 /* StructuresAndEnumerationsViewController.swift */,
+				844849EC29D33A9B00FC1CF5 /* ReferenceClassesViewController.swift */,
+			);
+			path = StructuresAndClasses;
+			sourceTree = "<group>";
+		};
+		844849EE29D33B2100FC1CF5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				844849EF29D33B3100FC1CF5 /* FeaturesViewController.swift */,
+				844849F129D33B4400FC1CF5 /* StoragePropertiesViewController.swift */,
+				844849F329D33B5F00FC1CF5 /* CalculatedPropertiesViewController.swift */,
+				844849F529D33B8900FC1CF5 /* PropertyObserversViewController.swift */,
+				844849F729D33BA600FC1CF5 /* WrappersForPropertiesViewController.swift */,
+				844849F929D33BC300FC1CF5 /* GlobalAndLocalViewController.swift */,
+				844849FB29D33BD600FC1CF5 /* TypePropertiesViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 		8448EC0129CF622D00B88CC0 /* TypesOfCollections */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +512,10 @@
 				8448EC0129CF622D00B88CC0 /* TypesOfCollections */,
 				844849B429D332C300FC1CF5 /* FlowControl */,
 				844849C229D334F200FC1CF5 /* Functions */,
+				844849CD29D337A700FC1CF5 /* Closures */,
+				844849D829D338EC00FC1CF5 /* Transfers */,
+				844849E529D33A1D00FC1CF5 /* StructuresAndClasses */,
+				844849EE29D33B2100FC1CF5 /* Features */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -696,20 +794,27 @@
 				844849C629D3355600FC1CF5 /* AnnouncementAndChallengeViewController.swift in Sources */,
 				8448EBEE29CF4F5E00B88CC0 /* AboutSwiftViewController.swift in Sources */,
 				844849A529D330E400FC1CF5 /* AssignmentOperatorsViewController.swift in Sources */,
+				844849D329D337F400FC1CF5 /* SubsequentClosuresViewController.swift in Sources */,
 				844849B629D332D400FC1CF5 /* FlowControlViewController.swift in Sources */,
 				844849CA29D3358D00FC1CF5 /* ArgumentLabelsViewController.swift in Sources */,
+				844849F629D33B8900FC1CF5 /* PropertyObserversViewController.swift in Sources */,
+				844849E429D3399400FC1CF5 /* InitialValuesViewController.swift in Sources */,
 				84C6D4BF29CEED2A0057A162 /* DictionariesViewController.swift in Sources */,
+				844849DE29D3393B00FC1CF5 /* UsingEnumerationsViewController.swift in Sources */,
 				8448EBF429CF5CC400B88CC0 /* CommentsViewController.swift in Sources */,
 				8448499429D32D9800FC1CF5 /* ConcatenationViewController.swift in Sources */,
 				8448499E29D32E2400FC1CF5 /* SubstringsViewController.swift in Sources */,
 				8448EBFA29CF5ED100B88CC0 /* ConvertingNumericTypesViewController.swift in Sources */,
+				844849ED29D33A9B00FC1CF5 /* ReferenceClassesViewController.swift in Sources */,
 				844849BE29D3336600FC1CF5 /* TransmissionOperatorsViewController.swift in Sources */,
 				844849C829D3356A00FC1CF5 /* FunctionParametersViewController.swift in Sources */,
+				844849E229D3397F00FC1CF5 /* AssociativeValuesViewController.swift in Sources */,
 				844849B329D331BC00FC1CF5 /* ComparisonOperatorsViewController.swift in Sources */,
 				844849C029D3337C00FC1CF5 /* EarlyExitViewController.swift in Sources */,
 				844849A929D3311B00FC1CF5 /* CompoundOperatorsViewController.swift in Sources */,
 				844849CC29D335A500FC1CF5 /* FunctionalTypesViewController.swift in Sources */,
 				84B27D7929C7088F00C840A7 /* Themes.swift in Sources */,
+				844849FC29D33BD600FC1CF5 /* TypePropertiesViewController.swift in Sources */,
 				844849AF29D3317400FC1CF5 /* RangeOperatorViewController.swift in Sources */,
 				8448499829D32DCA00FC1CF5 /* UnicodeViewController.swift in Sources */,
 				8448499029D32D4E00FC1CF5 /* StringLiteralsViewController.swift in Sources */,
@@ -723,32 +828,47 @@
 				8435C02E2991537700413405 /* ViewController.swift in Sources */,
 				844849C429D3353400FC1CF5 /* FunctionsViewController.swift in Sources */,
 				84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */,
+				844849D129D337D600FC1CF5 /* ClosingExpressionsViewController.swift in Sources */,
 				8448499C29D32E0B00FC1CF5 /* ModificationViewController.swift in Sources */,
 				8448EBF629CF5D5E00B88CC0 /* IntegersViewController.swift in Sources */,
 				8448499229D32D6800FC1CF5 /* InitializationViewController.swift in Sources */,
+				844849E929D33A5800FC1CF5 /* ClassComparisonViewController.swift in Sources */,
 				8435C06B29915D9900413405 /* ForUsViewController.swift in Sources */,
 				8435C06D299163E600413405 /* LearnTableViewCell.swift in Sources */,
 				844849A329D330C000FC1CF5 /* BasicOperatorsViewController.swift in Sources */,
 				84B27D7B29C70A4600C840A7 /* dataTypesViewController.swift in Sources */,
 				8448EBFC29CF5F9800B88CC0 /* TuplesViewController.swift in Sources */,
+				844849E029D3395900FC1CF5 /* CaseByCase ViewController.swift in Sources */,
+				844849D529D3380800FC1CF5 /* CapturingValuesViewController.swift in Sources */,
 				844849BA29D3331900FC1CF5 /* CyclesWhileViewController.swift in Sources */,
 				8448499A29D32DE700FC1CF5 /* CountingСharactersViewController.swift in Sources */,
 				844849A029D32E4200FC1CF5 /* StringAlignmentViewController.swift in Sources */,
 				8448EC0029CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift in Sources */,
+				844849F029D33B3100FC1CF5 /* FeaturesViewController.swift in Sources */,
+				844849CF29D337BB00FC1CF5 /* ClosuresViewController.swift in Sources */,
+				844849F429D33B5F00FC1CF5 /* CalculatedPropertiesViewController.swift in Sources */,
 				844849BC29D3334B00FC1CF5 /* ConditionalInstructionsViewController.swift in Sources */,
+				844849DA29D338FE00FC1CF5 /* TransfersViewController.swift in Sources */,
 				8435C05F29915C4600413405 /* TabBarController.swift in Sources */,
+				844849E729D33A4200FC1CF5 /* StructuresAndClassesViewController.swift in Sources */,
 				844849AB29D3313700FC1CF5 /* TernaryOperatorViewController.swift in Sources */,
+				844849EB29D33A7800FC1CF5 /* StructuresAndEnumerationsViewController.swift in Sources */,
+				844849F829D33BA600FC1CF5 /* WrappersForPropertiesViewController.swift in Sources */,
+				844849FA29D33BC300FC1CF5 /* GlobalAndLocalViewController.swift in Sources */,
 				844849AD29D3315B00FC1CF5 /* TheUnionOperatorViewController.swift in Sources */,
 				8448EC0329CF62BF00B88CC0 /* AboutTypesViewController.swift in Sources */,
 				8435C06929915D8900413405 /* ProgressViewController.swift in Sources */,
 				84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */,
 				8435C02A2991537700413405 /* AppDelegate.swift in Sources */,
+				844849DC29D3391D00FC1CF5 /* EnumerationSyntaxViewController.swift in Sources */,
 				8435C02C2991537700413405 /* SceneDelegate.swift in Sources */,
 				8435C06729915D7800413405 /* LearnViewController.swift in Sources */,
 				844849A729D3310100FC1CF5 /* ArithmeticOperatorsViewController.swift in Sources */,
 				8448EBFE29CF60EF00B88CC0 /* OptionalTypesViewController.swift in Sources */,
 				8448499629D32DAE00FC1CF5 /* InterpolationViewController.swift in Sources */,
 				8448498E29D32D2300FC1CF5 /* StringsAndSymbolsViewController.swift in Sources */,
+				844849D729D3382E00FC1CF5 /* ReferentialClosuresViewController.swift in Sources */,
+				844849F229D33B4400FC1CF5 /* StoragePropertiesViewController.swift in Sources */,
 				844849B129D3318900FC1CF5 /* LogicalOperatorsViewController.swift in Sources */,
 				8448EBF029CF59E100B88CC0 /* AnnotationOfTypesViewController.swift in Sources */,
 			);

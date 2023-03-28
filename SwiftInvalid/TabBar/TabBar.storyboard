@@ -1742,7 +1742,7 @@
         <!--Словари-->
         <scene sceneID="IqW-Go-Vqh">
             <objects>
-                <viewController storyboardIdentifier="FunctionalTypesViewController" title="Словари" id="pSO-XL-eUs" customClass="FunctionalTypesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReferentialClosuresViewController" title="Словари" id="pSO-XL-eUs" customClass="ReferentialClosuresViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="34l-gF-vet">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1774,7 +1774,7 @@
         <!--Словари-->
         <scene sceneID="6tu-na-B1o">
             <objects>
-                <viewController storyboardIdentifier="FunctionalTypesViewController" title="Словари" id="cNx-QR-aC6" customClass="FunctionalTypesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SubsequentClosuresViewController" title="Словари" id="cNx-QR-aC6" customClass="SubsequentClosuresViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ECu-GN-lbu">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1806,7 +1806,7 @@
         <!--Словари-->
         <scene sceneID="eIs-7h-vV8">
             <objects>
-                <viewController storyboardIdentifier="FunctionalTypesViewController" title="Словари" id="D98-BG-JWL" customClass="FunctionalTypesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CapturingValuesViewController" title="Словари" id="D98-BG-JWL" customClass="CapturingValuesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jFK-Uz-eeJ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1838,7 +1838,7 @@
         <!--Словари-->
         <scene sceneID="607-Yu-yll">
             <objects>
-                <viewController storyboardIdentifier="FunctionalTypesViewController" title="Словари" id="dQX-q3-BGu" customClass="FunctionalTypesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ClosingExpressionsViewController" title="Словари" id="dQX-q3-BGu" customClass="ClosingExpressionsViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SbX-q9-djs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1870,7 +1870,7 @@
         <!--Словари-->
         <scene sceneID="PJf-JS-3mE">
             <objects>
-                <viewController storyboardIdentifier="FunctionalTypesViewController" title="Словари" id="cmE-Ww-JxA" customClass="FunctionalTypesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ClosuresViewController" title="Словари" id="cmE-Ww-JxA" customClass="ClosuresViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pEs-cq-L7g">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1898,6 +1898,550 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jPY-iX-xWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-4970" y="6355"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="0UU-cV-vmj">
+            <objects>
+                <viewController storyboardIdentifier="EnumerationSyntaxViewController" title="Словари" id="PKp-DW-1ha" customClass="EnumerationSyntaxViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3qZ-SU-prh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yu8-DV-xuU">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="tYt-WM-zUP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vKf-LF-Ui4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Yu8-DV-xuU" firstAttribute="bottom" secondItem="vKf-LF-Ui4" secondAttribute="bottom" id="4Aq-qg-BWN"/>
+                            <constraint firstItem="vKf-LF-Ui4" firstAttribute="trailing" secondItem="Yu8-DV-xuU" secondAttribute="trailing" constant="16" id="87o-g2-weu"/>
+                            <constraint firstItem="Yu8-DV-xuU" firstAttribute="top" secondItem="vKf-LF-Ui4" secondAttribute="top" id="hzK-AI-g0I"/>
+                            <constraint firstItem="Yu8-DV-xuU" firstAttribute="leading" secondItem="vKf-LF-Ui4" secondAttribute="leading" constant="16" id="lyq-ye-8dv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d60-0T-AlT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4370" y="7038"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="lQf-Qw-N3H">
+            <objects>
+                <viewController storyboardIdentifier="UsingEnumerationsViewController" title="Словари" id="SbY-b3-7BD" customClass="UsingEnumerationsViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Xk-Lz-2Nv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXB-ZG-dEA">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="deK-O1-sAK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NHU-5G-jxm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NHU-5G-jxm" firstAttribute="trailing" secondItem="tXB-ZG-dEA" secondAttribute="trailing" constant="16" id="OH9-2e-Cem"/>
+                            <constraint firstItem="tXB-ZG-dEA" firstAttribute="top" secondItem="NHU-5G-jxm" secondAttribute="top" id="Qsq-lO-Inb"/>
+                            <constraint firstItem="tXB-ZG-dEA" firstAttribute="bottom" secondItem="NHU-5G-jxm" secondAttribute="bottom" id="kzR-r3-J6L"/>
+                            <constraint firstItem="tXB-ZG-dEA" firstAttribute="leading" secondItem="NHU-5G-jxm" secondAttribute="leading" constant="16" id="sm1-iI-0s3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vE-eQ-DpI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3773" y="7037"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="TC8-3b-JLy">
+            <objects>
+                <viewController storyboardIdentifier="CaseByCaseViewController" title="Словари" id="agg-lB-fl9" customClass="CaseByCaseViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="veA-uy-Ygc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZA-7L-mD8">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="PQX-PV-v5y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nuy-dv-t9g"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TZA-7L-mD8" firstAttribute="leading" secondItem="nuy-dv-t9g" secondAttribute="leading" constant="16" id="Al8-zY-0hb"/>
+                            <constraint firstItem="TZA-7L-mD8" firstAttribute="top" secondItem="nuy-dv-t9g" secondAttribute="top" id="NWX-dg-xan"/>
+                            <constraint firstItem="nuy-dv-t9g" firstAttribute="trailing" secondItem="TZA-7L-mD8" secondAttribute="trailing" constant="16" id="SUo-bu-Lha"/>
+                            <constraint firstItem="TZA-7L-mD8" firstAttribute="bottom" secondItem="nuy-dv-t9g" secondAttribute="bottom" id="i2D-9C-KL5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lOK-po-2t7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3176" y="7037"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="DLh-Rh-LTy">
+            <objects>
+                <viewController storyboardIdentifier="AssociativeValuesViewController" title="Словари" id="XFl-rq-xk9" customClass="AssociativeValuesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="87z-K1-60C">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPc-f1-rvF">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="gZF-yX-uPC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jNh-0y-Dax"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jNh-0y-Dax" firstAttribute="trailing" secondItem="VPc-f1-rvF" secondAttribute="trailing" constant="16" id="Mge-Ax-ZMp"/>
+                            <constraint firstItem="VPc-f1-rvF" firstAttribute="top" secondItem="jNh-0y-Dax" secondAttribute="top" id="Oev-7x-nbd"/>
+                            <constraint firstItem="VPc-f1-rvF" firstAttribute="bottom" secondItem="jNh-0y-Dax" secondAttribute="bottom" id="WnN-mb-Yyc"/>
+                            <constraint firstItem="VPc-f1-rvF" firstAttribute="leading" secondItem="jNh-0y-Dax" secondAttribute="leading" constant="16" id="rG1-bo-1Za"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1PE-1J-Xfv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2593" y="7037"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="27E-jT-iZH">
+            <objects>
+                <viewController storyboardIdentifier="InitialValuesViewController" title="Словари" id="qMK-bR-N2h" customClass="InitialValuesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dg3-QT-m6K">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dc1-I8-bUH">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="DwL-ZK-8cu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="njT-Lz-kdH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Dc1-I8-bUH" firstAttribute="top" secondItem="njT-Lz-kdH" secondAttribute="top" id="3zc-cb-H4e"/>
+                            <constraint firstItem="Dc1-I8-bUH" firstAttribute="bottom" secondItem="njT-Lz-kdH" secondAttribute="bottom" id="9bq-nz-DgR"/>
+                            <constraint firstItem="Dc1-I8-bUH" firstAttribute="leading" secondItem="njT-Lz-kdH" secondAttribute="leading" constant="16" id="QN6-Wu-BWy"/>
+                            <constraint firstItem="njT-Lz-kdH" firstAttribute="trailing" secondItem="Dc1-I8-bUH" secondAttribute="trailing" constant="16" id="XLh-Ph-nn6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kVf-ae-e6Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1990" y="7037"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="Kke-bN-bex">
+            <objects>
+                <viewController storyboardIdentifier="TransfersViewController" title="Словари" id="EKK-1g-L7j" customClass="TransfersViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Lm-u3-AeE">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZC-mR-ZjD">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="5Fb-5C-abg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tIL-9a-n7S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XZC-mR-ZjD" firstAttribute="bottom" secondItem="tIL-9a-n7S" secondAttribute="bottom" id="OFu-Lp-bhO"/>
+                            <constraint firstItem="tIL-9a-n7S" firstAttribute="trailing" secondItem="XZC-mR-ZjD" secondAttribute="trailing" constant="16" id="VPd-4D-htH"/>
+                            <constraint firstItem="XZC-mR-ZjD" firstAttribute="leading" secondItem="tIL-9a-n7S" secondAttribute="leading" constant="16" id="luq-SC-znL"/>
+                            <constraint firstItem="XZC-mR-ZjD" firstAttribute="top" secondItem="tIL-9a-n7S" secondAttribute="top" id="mBk-wh-9Pj"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNF-vo-Vb1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4970" y="7037"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="NKJ-ZL-iCK">
+            <objects>
+                <viewController storyboardIdentifier="StructuresAndClassesViewController" title="Словари" id="u2M-9I-4cS" customClass="StructuresAndClassesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ET2-5Q-YsB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gmh-Bg-shM">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="zrJ-XV-8Xh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UYS-kv-IXh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gmh-Bg-shM" firstAttribute="top" secondItem="UYS-kv-IXh" secondAttribute="top" id="GYt-d4-U5n"/>
+                            <constraint firstItem="Gmh-Bg-shM" firstAttribute="bottom" secondItem="UYS-kv-IXh" secondAttribute="bottom" id="HaN-cP-8CF"/>
+                            <constraint firstItem="Gmh-Bg-shM" firstAttribute="leading" secondItem="UYS-kv-IXh" secondAttribute="leading" constant="16" id="T2o-Em-bag"/>
+                            <constraint firstItem="UYS-kv-IXh" firstAttribute="trailing" secondItem="Gmh-Bg-shM" secondAttribute="trailing" constant="16" id="bIk-NN-EHk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M8E-3g-DzN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4970" y="7724"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="M3q-qw-yCG">
+            <objects>
+                <viewController storyboardIdentifier="StructuresAndEnumerationsViewController" title="Словари" id="Q19-vA-369" customClass="StructuresAndEnumerationsViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r8j-ox-4MX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Un-ch-FM4">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="a6K-s5-TOX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Qbx-ef-FER"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4Un-ch-FM4" firstAttribute="leading" secondItem="Qbx-ef-FER" secondAttribute="leading" constant="16" id="LA1-QN-q0q"/>
+                            <constraint firstItem="4Un-ch-FM4" firstAttribute="top" secondItem="Qbx-ef-FER" secondAttribute="top" id="XBA-Z3-i2K"/>
+                            <constraint firstItem="Qbx-ef-FER" firstAttribute="trailing" secondItem="4Un-ch-FM4" secondAttribute="trailing" constant="16" id="hDf-mi-CT8"/>
+                            <constraint firstItem="4Un-ch-FM4" firstAttribute="bottom" secondItem="Qbx-ef-FER" secondAttribute="bottom" id="jBW-fI-r2B"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gnR-AC-Syc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3773" y="7724"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="fvm-ha-eSR">
+            <objects>
+                <viewController storyboardIdentifier="ReferenceClassesViewController" title="Словари" id="9y4-lt-9LJ" customClass="ReferenceClassesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8KU-cv-fzU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLR-2r-ggS">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="beK-7g-M2j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZMk-YC-Yer"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GLR-2r-ggS" firstAttribute="leading" secondItem="ZMk-YC-Yer" secondAttribute="leading" constant="16" id="J2v-Gu-X8p"/>
+                            <constraint firstItem="GLR-2r-ggS" firstAttribute="bottom" secondItem="ZMk-YC-Yer" secondAttribute="bottom" id="mOo-6M-kcq"/>
+                            <constraint firstItem="GLR-2r-ggS" firstAttribute="top" secondItem="ZMk-YC-Yer" secondAttribute="top" id="tdk-PN-Dhd"/>
+                            <constraint firstItem="ZMk-YC-Yer" firstAttribute="trailing" secondItem="GLR-2r-ggS" secondAttribute="trailing" constant="16" id="yqy-VV-xSR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UZN-fy-4gz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3176" y="7724"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="u0x-B1-cDv">
+            <objects>
+                <viewController storyboardIdentifier="ClassComparisonViewController" title="Словари" id="aJ7-md-wH8" customClass="ClassComparisonViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kl9-J0-xGX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjw-D6-LHY">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="Z0t-pl-UNn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="MC2-qq-vyl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fjw-D6-LHY" firstAttribute="top" secondItem="MC2-qq-vyl" secondAttribute="top" id="CYh-hb-ntv"/>
+                            <constraint firstItem="fjw-D6-LHY" firstAttribute="leading" secondItem="MC2-qq-vyl" secondAttribute="leading" constant="16" id="PV6-pK-giQ"/>
+                            <constraint firstItem="MC2-qq-vyl" firstAttribute="trailing" secondItem="fjw-D6-LHY" secondAttribute="trailing" constant="16" id="nhu-hJ-7cJ"/>
+                            <constraint firstItem="fjw-D6-LHY" firstAttribute="bottom" secondItem="MC2-qq-vyl" secondAttribute="bottom" id="u0z-XP-nPK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Btx-AO-O4b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4370" y="7724"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="AFa-lN-PwW">
+            <objects>
+                <viewController storyboardIdentifier="StoragePropertiesViewController" title="Словари" id="q5V-uW-1HQ" customClass="StoragePropertiesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uCo-Ig-tWN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zk4-gL-acR">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="35U-Xd-4HT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ckL-fi-Oak"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zk4-gL-acR" firstAttribute="leading" secondItem="ckL-fi-Oak" secondAttribute="leading" constant="16" id="6t5-8v-FwT"/>
+                            <constraint firstItem="Zk4-gL-acR" firstAttribute="bottom" secondItem="ckL-fi-Oak" secondAttribute="bottom" id="EQc-Zq-uht"/>
+                            <constraint firstItem="Zk4-gL-acR" firstAttribute="top" secondItem="ckL-fi-Oak" secondAttribute="top" id="RSw-W5-fRK"/>
+                            <constraint firstItem="ckL-fi-Oak" firstAttribute="trailing" secondItem="Zk4-gL-acR" secondAttribute="trailing" constant="16" id="bhb-k0-1rt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXa-uM-RdM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4370" y="8417"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="MbK-ed-Jcw">
+            <objects>
+                <viewController storyboardIdentifier="CalculatedPropertiesViewController" title="Словари" id="zGi-3R-A4V" customClass="CalculatedPropertiesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GNG-lZ-dOD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebP-Mz-3cg">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="GtW-U0-hdN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PVx-iU-ts3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ebP-Mz-3cg" firstAttribute="top" secondItem="PVx-iU-ts3" secondAttribute="top" id="C8w-TQ-hIo"/>
+                            <constraint firstItem="PVx-iU-ts3" firstAttribute="trailing" secondItem="ebP-Mz-3cg" secondAttribute="trailing" constant="16" id="WsZ-5G-IDu"/>
+                            <constraint firstItem="ebP-Mz-3cg" firstAttribute="bottom" secondItem="PVx-iU-ts3" secondAttribute="bottom" id="d1W-U2-F3e"/>
+                            <constraint firstItem="ebP-Mz-3cg" firstAttribute="leading" secondItem="PVx-iU-ts3" secondAttribute="leading" constant="16" id="yjg-RV-QZL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M9J-cf-ZWn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3773" y="8417"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="dY2-h5-GGR">
+            <objects>
+                <viewController storyboardIdentifier="PropertyObserversViewController" title="Словари" id="c3a-P8-ihB" customClass="PropertyObserversViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DfW-qc-mTw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ko0-sz-0c8">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="YCT-qp-Fci"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0NI-rJ-G9Z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0NI-rJ-G9Z" firstAttribute="trailing" secondItem="ko0-sz-0c8" secondAttribute="trailing" constant="16" id="IVS-TG-bT6"/>
+                            <constraint firstItem="ko0-sz-0c8" firstAttribute="leading" secondItem="0NI-rJ-G9Z" secondAttribute="leading" constant="16" id="M17-kx-RNm"/>
+                            <constraint firstItem="ko0-sz-0c8" firstAttribute="top" secondItem="0NI-rJ-G9Z" secondAttribute="top" id="Pny-YZ-LWU"/>
+                            <constraint firstItem="ko0-sz-0c8" firstAttribute="bottom" secondItem="0NI-rJ-G9Z" secondAttribute="bottom" id="fsc-0X-6Lh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xZi-O6-hUv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3176" y="8417"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="yd7-hT-TxV">
+            <objects>
+                <viewController storyboardIdentifier="WrappersForPropertiesViewController" title="Словари" id="Gsf-ne-nwG" customClass="WrappersForPropertiesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RpG-js-9tn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EK-cK-yE7">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="857-QY-qRK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DXL-yL-uQ6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6EK-cK-yE7" firstAttribute="leading" secondItem="DXL-yL-uQ6" secondAttribute="leading" constant="16" id="GvU-x5-cYK"/>
+                            <constraint firstItem="6EK-cK-yE7" firstAttribute="bottom" secondItem="DXL-yL-uQ6" secondAttribute="bottom" id="Own-QU-5Ia"/>
+                            <constraint firstItem="6EK-cK-yE7" firstAttribute="top" secondItem="DXL-yL-uQ6" secondAttribute="top" id="VLt-us-PQv"/>
+                            <constraint firstItem="DXL-yL-uQ6" firstAttribute="trailing" secondItem="6EK-cK-yE7" secondAttribute="trailing" constant="16" id="mRJ-WL-M6C"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qb6-ap-LZX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2576" y="8417"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="rBd-VH-74U">
+            <objects>
+                <viewController storyboardIdentifier="GlobalAndLocalViewController" title="Словари" id="mDx-6s-vkb" customClass="GlobalAndLocalViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KrE-pB-gVN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bI-Vt-MnD">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="kJM-ba-sip"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rl0-yq-whf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8bI-Vt-MnD" firstAttribute="bottom" secondItem="Rl0-yq-whf" secondAttribute="bottom" id="9GP-BL-cTa"/>
+                            <constraint firstItem="Rl0-yq-whf" firstAttribute="trailing" secondItem="8bI-Vt-MnD" secondAttribute="trailing" constant="16" id="gGQ-fh-gRG"/>
+                            <constraint firstItem="8bI-Vt-MnD" firstAttribute="leading" secondItem="Rl0-yq-whf" secondAttribute="leading" constant="16" id="vPe-du-SOe"/>
+                            <constraint firstItem="8bI-Vt-MnD" firstAttribute="top" secondItem="Rl0-yq-whf" secondAttribute="top" id="yqb-og-G85"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uu3-m1-Y2a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1990" y="8417"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="wK4-lx-rbw">
+            <objects>
+                <viewController storyboardIdentifier="TypePropertiesViewController" title="Словари" id="3Px-rV-TfG" customClass="TypePropertiesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xfm-DO-67G">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1d-6j-CvW">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="qAQ-ji-ab6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vO0-0h-aPR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="K1d-6j-CvW" firstAttribute="leading" secondItem="vO0-0h-aPR" secondAttribute="leading" constant="16" id="33G-Nu-vid"/>
+                            <constraint firstItem="K1d-6j-CvW" firstAttribute="top" secondItem="vO0-0h-aPR" secondAttribute="top" id="93U-JT-3Ek"/>
+                            <constraint firstItem="K1d-6j-CvW" firstAttribute="bottom" secondItem="vO0-0h-aPR" secondAttribute="bottom" id="bl7-NI-9bz"/>
+                            <constraint firstItem="vO0-0h-aPR" firstAttribute="trailing" secondItem="K1d-6j-CvW" secondAttribute="trailing" constant="16" id="d8B-lS-7f4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vyx-aH-igN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1393" y="8417"/>
+        </scene>
+        <!--Словари-->
+        <scene sceneID="F0G-0P-LhV">
+            <objects>
+                <viewController storyboardIdentifier="FeaturesViewController" title="Словари" id="sBW-vC-hhr" customClass="FeaturesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vrh-4d-ZYk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NV6-FB-dFn">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="3tx-8h-9Tr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cwK-ab-gbP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cwK-ab-gbP" firstAttribute="trailing" secondItem="NV6-FB-dFn" secondAttribute="trailing" constant="16" id="KbL-PJ-Mc6"/>
+                            <constraint firstItem="NV6-FB-dFn" firstAttribute="leading" secondItem="cwK-ab-gbP" secondAttribute="leading" constant="16" id="NSv-OX-U76"/>
+                            <constraint firstItem="NV6-FB-dFn" firstAttribute="top" secondItem="cwK-ab-gbP" secondAttribute="top" id="cwV-5f-Fyd"/>
+                            <constraint firstItem="NV6-FB-dFn" firstAttribute="bottom" secondItem="cwK-ab-gbP" secondAttribute="bottom" id="r9g-vp-OV1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enh-jz-uXY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4970" y="8417"/>
         </scene>
     </scenes>
     <resources>
