@@ -1,13 +1,13 @@
 //
-//  InitializationViewController.swift
+//  AdvancedOperatorsViewController.swift
 //  SwiftInvalid
 //
-//  Created by admin on 28.03.2023.
+//  Created by admin on 30.03.2023.
 //
 
 import UIKit
 
-class InitializerEmptyStrings: UIViewController {
+class AdvancedOperatorsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
