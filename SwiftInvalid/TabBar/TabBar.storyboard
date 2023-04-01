@@ -3854,7 +3854,7 @@
         <!--Различия между типом протокола и непрозрачным типом-->
         <scene sceneID="yfl-YM-6Cc">
             <objects>
-                <viewController storyboardIdentifier="TypeDifferencesViewController" title="Различия между типом протокола и непрозрачным типом" id="56T-yD-R1g" customClass="ExtensionInitTypeDifferencesViewControllerializersViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TypeDifferencesViewController" title="Различия между типом протокола и непрозрачным типом" id="56T-yD-R1g" customClass="TypeDifferencesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h75-mB-kOB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
