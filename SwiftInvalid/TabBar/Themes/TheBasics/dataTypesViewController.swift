@@ -123,7 +123,7 @@ class dataTypesViewController: UIViewController {
         
         // Создание кнопки
         let button = UIButton(type: .system)
-        button.setTitle("Анотация типов", for: .normal)
+        button.setTitle("Многострочные строки", for: .normal)
         button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
         button.frame = CGRect(x: scrollView.contentSize.width - 180, y: scrollView.contentSize.height, width: 150, height: -100)
@@ -132,7 +132,7 @@ class dataTypesViewController: UIViewController {
     
     // действие при нажатии на кнопку
     @objc func buttonTapped() {
-        let NextVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "AnnotationOfTypesViewController") as! AnnotationOfTypesViewController
+        let NextVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "multilineLinesViewController") as! multilineLinesViewController
         navigationController?.pushViewController(NextVC, animated: true)
  
     }

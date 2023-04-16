@@ -24,28 +24,64 @@ class TuplesViewController: UIViewController {
         
        
         
-        LableInfo.text = """
-        Константы и переменные связывают имя (например, maximumNumberOfLoginAttempts или welcomeMessage) со значением определенного типа (например, число 10 или строка "Hello"). Значение константы не может быть изменено после его установки, тогда как переменной может быть установлено другое значение в будущем.
+       
+            let imageAttachment = NSTextAttachment()
+            let originalImage = UIImage(named: "Снимок экрана 2023-04-16 в 14.41.21.png")
+        let resizedImage = originalImage?.resize(toWidth: 380, height: 100) // Replace 300 with the desired width
+            imageAttachment.image = resizedImage
+            let imageString = NSAttributedString(attachment: imageAttachment)
+
+            let textString = "Кортежи группируют несколько значений в одно составное значение. Значения внутри кортежа могут быть любого типа, то есть, нет необходимости, чтобы они были одного и того же типа.\n\nВ данном примере (404, \"Not Found\") это кортеж, который описывает код HTTP статуса. Код HTTP статуса — особое значение, возвращаемое веб-сервером каждый раз, когда вы запрашиваете веб-страницу. Код статуса 404 Not Found возвращается, когда вы запрашиваете страницу, которая не существует.\n\n"
+
+            let attributedString = NSMutableAttributedString(string: textString, attributes: [
+                .font: UIFont.systemFont(ofSize: 17),
+                .foregroundColor: UIColor.black
+            ])
+            attributedString.append(imageString)
+
+            LableInfo.attributedText = attributedString
         
-        Объявление констант и переменных
-        Константы и переменные должны быть объявлены, перед тем как их использовать. Константы объявляются с помощью ключевого слова let, а переменные с помощью var. Вот пример того, как константы и переменные могут быть использованы для отслеживания количества попыток входа, которые совершил пользователь:
+
+        // Продолжение текста здесь
+        if let attributedText = LableInfo.attributedText {
+            let continuationString = "Чтобы передать код статуса, кортеж (404, \"Not Found\") группирует вместе два отдельных значения Int и String: число и понятное человеку описание. Это может быть описано как \"кортеж типа (Int, String)\".\n\nВы можете создать кортеж с любой расстановкой типов, и они могут содержать сколько угодно нужных вам типов. Ничто вам не мешает иметь кортеж типа (Int, Int, Int), или типа (String, Bool), или же с любой другой расстановкой типов по вашему желанию.\n\nВы можете разложить содержимое кортежа на отдельные константы и переменные, к которым можно получить доступ привычным способом:"
+            let continuationAttributedString = NSAttributedString(string: continuationString)
+            let newAttributedString = NSMutableAttributedString(attributedString: attributedText)
+            newAttributedString.append(continuationAttributedString)
+            LableInfo.attributedText = newAttributedString
+        }
         
-        let maximumNumberOfLoginAttempts = 10
-        var currentLoginAttempt = 0
-        Этот код можно прочесть как:
+        // Создание нового изображения
+        if let newImage = UIImage(named: "Снимок экрана 2023-04-16 в 15.20.03.png") {
+            // Изменение размера изображения
+            let resizedImage = newImage.resize(toWidth: 380, height: 100)
+
+            // Создание нового вложения изображения
+            let newImageAttachment = NSTextAttachment()
+            newImageAttachment.image = resizedImage
+
+            // Создание нового NSAttributedString из вложения изображения
+            let newImageAttributedString = NSAttributedString(attachment: newImageAttachment)
+
+            // Добавление нового NSAttributedString в конец существующего атрибутированного текста
+            if let attributedText = LableInfo.attributedText {
+                let newAttributedString = NSMutableAttributedString(attributedString: attributedText)
+                newAttributedString.append(NSAttributedString(string: "\n"))
+                newAttributedString.append(newImageAttributedString)
+                LableInfo.attributedText = newAttributedString
+            }
+        }
+      
+
         
-        «Объяви новую константу с именем maximumNumberOfLoginAttempts, и задай ей значение 10. Потом, объяви новую переменную с именем currentLoginAttempt, и задай ей начальное значение 0.»
+
+
+
+
         
-        В этом примере максимальное количество доступных попыток входа объявлено как константа, потому что максимальное значение никогда не меняется. Счетчик текущего количества попыток входа объявлен как переменная, потому что это значение должно увеличиваться после каждой неудачной попытки входа.
+
         
-        Вы можете объявить несколько констант или несколько переменных на одной строке, разделяя их запятыми:
-        
-        var x = 0.0, y = 0.0, z = 0.0
-        Заметка
-        Если хранимое значение в вашем коде не будет меняться, всегда объявляйте его как константу, используя ключевое слово let. Используйте переменные только для хранения значений, которые должны будут меняться.
-        """
         LableInfo.lineBreakMode = .byWordWrapping
-        LableInfo.font = UIFont.systemFont(ofSize: 17)
         LableInfo.numberOfLines = 0
         LableInfo.sizeToFit()
         
@@ -73,3 +109,13 @@ class TuplesViewController: UIViewController {
     
     
 }
+extension UIImage {
+    func resize(toWidth width: CGFloat, height: CGFloat) -> UIImage? {
+        let size = CGSize(width: width, height: height)
+        UIGraphicsBeginImageContextWithOptions(size, false, scale)
+        defer { UIGraphicsEndImageContext() }
+        draw(in: CGRect(origin: .zero, size: size))
+        return UIGraphicsGetImageFromCurrentImageContext()?.withRenderingMode(renderingMode)
+    }
+}
+

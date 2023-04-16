@@ -88,6 +88,7 @@
 		8448EC0029CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EBFF29CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift */; };
 		8448EC0329CF62BF00B88CC0 /* AboutTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EC0229CF62BF00B88CC0 /* AboutTypesViewController.swift */; };
 		844DEDF129BA44F20053A2DB /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DEDF029BA44F20053A2DB /* LectureViewController.swift */; };
+		845A247D29D98A5B00856684 /* Tests.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845A247C29D98A5B00856684 /* Tests.storyboard */; };
 		845AFFF529BCF00E00B760C8 /* Pods_SwiftInvalid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845AFFF429BCF00E00B760C8 /* Pods_SwiftInvalid.framework */; };
 		845AFFF629BCF00E00B760C8 /* Pods_SwiftInvalid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 845AFFF429BCF00E00B760C8 /* Pods_SwiftInvalid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84B1CFCB29D5E057003A25A2 /* ExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1CFCA29D5E057003A25A2 /* ExtensionsViewController.swift */; };
@@ -310,6 +311,7 @@
 		8448EC0229CF62BF00B88CC0 /* AboutTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTypesViewController.swift; sourceTree = "<group>"; };
 		844DEDEC29B508D30053A2DB /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		844DEDF029BA44F20053A2DB /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
+		845A247C29D98A5B00856684 /* Tests.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tests.storyboard; sourceTree = "<group>"; };
 		845AFFEA29BCEC3900B760C8 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		845AFFEE29BCEFD100B760C8 /* UICircularProgressRing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UICircularProgressRing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		845AFFF429BCF00E00B760C8 /* Pods_SwiftInvalid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_SwiftInvalid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -465,6 +467,7 @@
 		8435C0282991537700413405 /* SwiftInvalid */ = {
 			isa = PBXGroup;
 			children = (
+				845A247B29D98A3B00856684 /* Tests */,
 				8435C05B299157C700413405 /* TabBar */,
 				8435C0592991538400413405 /* Application */,
 				8435C05A2991539B00413405 /* Main */,
@@ -710,6 +713,14 @@
 				84B1D02C29D5E9DF003A25A2 /* AdvancedOperators */,
 			);
 			path = Themes;
+			sourceTree = "<group>";
+		};
+		845A247B29D98A3B00856684 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				845A247C29D98A5B00856684 /* Tests.storyboard */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		84B1CFC929D5E020003A25A2 /* Extensions */ = {
@@ -1085,6 +1096,7 @@
 				8435C05D299157EC00413405 /* TabBar.storyboard in Resources */,
 				8435C0362991537800413405 /* LaunchScreen.storyboard in Resources */,
 				8435C0332991537800413405 /* Assets.xcassets in Resources */,
+				845A247D29D98A5B00856684 /* Tests.storyboard in Resources */,
 				8435C0312991537700413405 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

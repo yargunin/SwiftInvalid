@@ -66,7 +66,7 @@ class StatementsAndPreconditionsViewController: UIViewController {
     
     // действие при нажатии на кнопку
     @objc func buttonTapped() {
-        let NextVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "dataTypesViewController") as! dataTypesViewController
+        let NextVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "BasicOperatorsViewController") as! BasicOperatorsViewController
         navigationController?.pushViewController(NextVC, animated: true)
  
     }

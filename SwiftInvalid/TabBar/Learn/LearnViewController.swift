@@ -23,7 +23,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         tableView.register(LearnTableViewCell.self, forCellReuseIdentifier: "cell")
         
-        
+
         
         
         if self.sections.isEmpty {
@@ -70,7 +70,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 "Автоматический подсчет ссылок (ARC)": ["О ARC", "Работа ARC", "ARC в действии", "Циклы сильных ссылок между экземплярами классов", "Замена циклов сильных ссылок между экземплярами классов",
                                                         "Циклы сильных ссылок в замыканиях", "Замена циклов сильных ссылок в замыканиях"],
                 "Безопасность хранения": ["Безопасность хранения", "Что такое конфликт доступа к памяти", "Характеристики доступа к памяти", "Конфликты"],
-                "Контроль доступа": ["Контроль доступа", "Модули и исходные файлы", "Уровни доступа", "Синтаксис контроля доступа", "Пользовательские типы", "Уровень доступа класса и подкласса", "Константы, переменные, свойства и сабскрипт"],
+                "Контроль доступа": ["Контроль доступа", "Модули и исходные файлы", "Уровни доступа", "Синтаксис контроля доступа", "Пользовательские типы", "Уровень доступа класса и подкласса", "Константы, переменные, свойства и сабскрипты"],
                 "Продвинутые операторы": ["Продвинутые операторы", "Побитовые операторы", "Операторы переполнения", "Приоритет и ассоциативность", "Операторные функции", "Пользовательские операторы"]]
             
         }
@@ -117,6 +117,9 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
         guard let displayCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? LearnTableViewCell else {
             return UITableViewCell()
         }
+     
+  
+        
 
         let sectionName = sections[indexPath.section]
         if let cellName = cells[sectionName]?[indexPath.row] {
@@ -857,7 +860,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let ClassSubclassVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ClassSubclassViewController") as! ClassSubclassViewController
             navigationController?.pushViewController(ClassSubclassVC, animated: true)
             
-        case "Константы, переменные, свойства и сабскрипт":
+        case "Константы, переменные, свойства и сабскрипты":
             let LetVarPropSubVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "LetVarPropSubViewController") as! LetVarPropSubViewController
             navigationController?.pushViewController(LetVarPropSubVC, animated: true)
             
