@@ -21,14 +21,14 @@ class LogicalOperatorsViewController: UIViewController {
             // Создание UIScrollView
             let scrollView = UIScrollView(frame: view.bounds)
             scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            scrollView.contentSize = CGSize(width: view.bounds.width, height: 1100)
+            scrollView.contentSize = CGSize(width: view.bounds.width, height: 2100)
             scrollView.isScrollEnabled = true
             
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Утверждения и предусловия")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 1700)
+        let originalImage = UIImage(named: "Логические операторы")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 2000)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 

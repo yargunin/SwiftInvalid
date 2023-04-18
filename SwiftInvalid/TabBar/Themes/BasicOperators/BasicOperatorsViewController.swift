@@ -27,8 +27,8 @@ class BasicOperatorsViewController: UIViewController {
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Утверждения и предусловия")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 1700)
+        let originalImage = UIImage(named: "Базовые операторы")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 1000)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 
@@ -46,7 +46,7 @@ class BasicOperatorsViewController: UIViewController {
             button.setTitle("Оператор присваивания", for: .normal)
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
-            button.frame = CGRect(x: scrollView.contentSize.width - 200, y: scrollView.contentSize.height, width: 200, height: -100)
+            button.frame = CGRect(x: scrollView.contentSize.width - 240, y: scrollView.contentSize.height, width: 240, height: -100)
             scrollView.addSubview(button)
         }
         

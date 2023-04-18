@@ -215,7 +215,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let BasicOperatorsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "BasicOperatorsViewController") as! BasicOperatorsViewController
             navigationController?.pushViewController(BasicOperatorsVC, animated: true)
             
-        case "Операторы присваивания":
+        case "Оператор присваивания":
             let AssignmentOperatorsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "AssignmentOperatorsViewController") as! AssignmentOperatorsViewController
             navigationController?.pushViewController(AssignmentOperatorsVC, animated: true)
             
@@ -223,7 +223,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let ArithmeticOperatorsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ArithmeticOperatorsViewController") as! ArithmeticOperatorsViewController
             navigationController?.pushViewController(ArithmeticOperatorsVC, animated: true)
             
-        case "Составные операторы присваивания":
+        case "Cоставные операторы присваивания":
             let CompoundOperatorsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "CompoundOperatorsViewController") as! CompoundOperatorsViewController
             navigationController?.pushViewController(CompoundOperatorsVC, animated: true)
             
@@ -231,15 +231,15 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let ComparisonOperatorsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ComparisonOperatorsViewController") as! ComparisonOperatorsViewController
             navigationController?.pushViewController(ComparisonOperatorsVC, animated: true)
             
-        case "Тернарный условныый оператор":
+        case "Тернарный условный оператор":
             let TernaryOperatorVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "TernaryOperatorViewController") as! TernaryOperatorViewController
             navigationController?.pushViewController(TernaryOperatorVC, animated: true)
             
-        case "Оператор обьъединения по nil":
+        case "Оператор объединения по nil":
             let TheUnionOperatorVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "TheUnionOperatorViewController") as! TheUnionOperatorViewController
             navigationController?.pushViewController(TheUnionOperatorVC, animated: true)
             
-        case "Оператор диапозона":
+        case "Операторы диапазона":
             let RangeOperatorVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "RangeOperatorViewController") as! RangeOperatorViewController
             navigationController?.pushViewController(RangeOperatorVC, animated: true)
             
