@@ -13,6 +13,8 @@ class LearnTableViewCell: UITableViewCell {
     
     let userDefaults = UserDefaults.standard
     var subtheme: String = ""
+    var cellStates = [IndexPath: Bool]()
+
     
     @IBOutlet var menuName: UILabel!
     
@@ -55,4 +57,5 @@ class LearnTableViewCell: UITableViewCell {
         func configure(subtheme: String) {
             menuName?.text = subtheme
         }
+    
     }

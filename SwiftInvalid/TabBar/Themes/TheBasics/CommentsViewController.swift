@@ -19,32 +19,18 @@ class CommentsViewController: UIViewController {
         // Создание UIScrollView
         let scrollView = UIScrollView(frame: view.bounds)
         scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        scrollView.contentSize = CGSize(width: view.bounds.width, height: 1100)
+        scrollView.contentSize = CGSize(width: view.bounds.width, height: 900)
         scrollView.isScrollEnabled = true
         
        
         
-        LableInfo.text = """
-        Используйте комментарии, чтобы добавить неисполняемый текст в коде, как примечание или напоминание самому себе. Комментарии игнорируются компилятором Swift во время компиляции кода.
+        let imageAttachment = NSTextAttachment()
+        let originalImage = UIImage(named: "Комментарии")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 800)
+        imageAttachment.image = resizedImage
+        let imageString = NSAttributedString(attachment: imageAttachment)
 
-        Комментарии в Swift очень похожи на комментарии в C. Однострочные комментарии начинаются с двух слешей (//):
-
-        // это комментарий
-        Вы также можете написать многострочные комментарии, которые начинаются со слеша и звездочки (/*) и заканчиваются звездочкой, за которой следует слеш (*/):
-
-        /* это тоже комментарий,
-        но написанный на двух строках */
-        В отличие от многострочных комментариев в C, многострочные комментарии в Swift могут быть вложены в другие многострочные комментарии. Вы можете написать вложенные комментарии, начав многострочный блок комментариев, а затем, начать второй многострочный комментарий внутри первого блока. Затем второй блок закрывается, а за ним закрывается первый блок:
-
-        /* это начало первого многострочного комментария
-        /* это второго, вложенного многострочного комментария */
-        это конец первого многострочного комментария */
-        Вложенные многострочные комментарии позволяют закомментировать большие блоки кода быстро и легко, даже если код уже содержит многострочные комментарии.
-        """
-        LableInfo.lineBreakMode = .byWordWrapping
-        LableInfo.font = UIFont.systemFont(ofSize: 17)
-        LableInfo.numberOfLines = 0
-        LableInfo.sizeToFit()
+        LableInfo.attributedText = imageString
         
         // Добавление UILabel в UIScrollView
         scrollView.addSubview(LableInfo)

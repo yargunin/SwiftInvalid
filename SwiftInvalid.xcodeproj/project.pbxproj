@@ -143,8 +143,6 @@
 		84B1D03629D5EAA0003A25A2 /* OperatorFunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1D03529D5EAA0003A25A2 /* OperatorFunctionsViewController.swift */; };
 		84B1D03829D5EABE003A25A2 /* CustomOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1D03729D5EABE003A25A2 /* CustomOperatorsViewController.swift */; };
 		84B27D7929C7088F00C840A7 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7829C7088F00C840A7 /* Themes.swift */; };
-		84B27D7B29C70A4600C840A7 /* dataTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */; };
-		84B27D7D29C735E400C840A7 /* multilineLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */; };
 		84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */; };
 		84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D8229C7369F00C840A7 /* ArrayViewController.swift */; };
 		84C6D4BF29CEED2A0057A162 /* DictionariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6D4BE29CEED2A0057A162 /* DictionariesViewController.swift */; };
@@ -367,8 +365,6 @@
 		84B1D03529D5EAA0003A25A2 /* OperatorFunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorFunctionsViewController.swift; sourceTree = "<group>"; };
 		84B1D03729D5EABE003A25A2 /* CustomOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperatorsViewController.swift; sourceTree = "<group>"; };
 		84B27D7829C7088F00C840A7 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
-		84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dataTypesViewController.swift; sourceTree = "<group>"; };
-		84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multilineLinesViewController.swift; sourceTree = "<group>"; };
 		84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logicalTypesViewController.swift; sourceTree = "<group>"; };
 		84B27D8229C7369F00C840A7 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
 		84C6D4BE29CEED2A0057A162 /* DictionariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionariesViewController.swift; sourceTree = "<group>"; };
@@ -835,8 +831,6 @@
 			children = (
 				8448EBED29CF4F5E00B88CC0 /* AboutSwiftViewController.swift */,
 				844DEDF029BA44F20053A2DB /* LectureViewController.swift */,
-				84B27D7A29C70A4600C840A7 /* dataTypesViewController.swift */,
-				84B27D7C29C735E400C840A7 /* multilineLinesViewController.swift */,
 				8448EBEF29CF59E100B88CC0 /* AnnotationOfTypesViewController.swift */,
 				8448EBF129CF5B6200B88CC0 /* LetAndVarViewController.swift */,
 				8448EBF329CF5CC400B88CC0 /* CommentsViewController.swift */,
@@ -1271,7 +1265,6 @@
 				8448499029D32D4E00FC1CF5 /* StringLiteralsViewController.swift in Sources */,
 				84E98A3929D5D02100E0EA02 /* TypeMethodsViewController.swift in Sources */,
 				844849B829D3330300FC1CF5 /* CyclesForInViewController.swift in Sources */,
-				84B27D7D29C735E400C840A7 /* multilineLinesViewController.swift in Sources */,
 				8448EBF229CF5B6200B88CC0 /* LetAndVarViewController.swift in Sources */,
 				84B1CFF829D5E544003A25A2 /* UniversalTemplatesViewController.swift in Sources */,
 				8435C06529915D6700413405 /* HomeViewController.swift in Sources */,
@@ -1306,7 +1299,6 @@
 				84B1D00029D5E5AB003A25A2 /* ExpandingUniversalTypeViewController.swift in Sources */,
 				84B1CFD329D5E0D2003A25A2 /* ExtensionMethodsViewController.swift in Sources */,
 				844849A329D330C000FC1CF5 /* BasicOperatorsViewController.swift in Sources */,
-				84B27D7B29C70A4600C840A7 /* dataTypesViewController.swift in Sources */,
 				84E98A7F29D5DBBA00E0EA02 /* StepDownCastViewController.swift in Sources */,
 				8448EBFC29CF5F9800B88CC0 /* TuplesViewController.swift in Sources */,
 				84E98A7B29D5DB7C00E0EA02 /* DefiningHierarchyViewController.swift in Sources */,

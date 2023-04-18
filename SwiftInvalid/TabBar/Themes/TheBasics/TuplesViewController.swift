@@ -19,7 +19,7 @@ class TuplesViewController: UIViewController {
         // Создание UIScrollView
         let scrollView = UIScrollView(frame: view.bounds)
         scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        scrollView.contentSize = CGSize(width: view.bounds.width, height: 2000)
+        scrollView.contentSize = CGSize(width: view.bounds.width, height: 1900)
         scrollView.isScrollEnabled = true
         
        
@@ -27,7 +27,7 @@ class TuplesViewController: UIViewController {
        
         let imageAttachment = NSTextAttachment()
         let originalImage = UIImage(named: "image.png")
-        let resizedImage = originalImage?.resize(toWidth: 360, height: 1800) // Replace 300 with the desired width
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 1800) 
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 

@@ -119,76 +119,6 @@
             </objects>
             <point key="canvasLocation" x="-4362.5954198473282" y="2077.4647887323945"/>
         </scene>
-        <!--Типы данных-->
-        <scene sceneID="1P1-ZT-V6k">
-            <objects>
-                <viewController storyboardIdentifier="dataTypesViewController" title="Типы данных" id="y37-Xo-uL1" customClass="dataTypesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="IAK-GQ-GZR">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvS-vf-VtM">
-                                <rect key="frame" x="16" y="59" width="361" height="759"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="361" id="K92-0z-YL0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="qfQ-dh-BuZ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="VvS-vf-VtM" firstAttribute="leading" secondItem="qfQ-dh-BuZ" secondAttribute="leading" constant="16" id="6O4-7z-9HT"/>
-                            <constraint firstItem="qfQ-dh-BuZ" firstAttribute="trailing" secondItem="VvS-vf-VtM" secondAttribute="trailing" constant="16" id="bwc-w0-fRs"/>
-                            <constraint firstItem="VvS-vf-VtM" firstAttribute="top" secondItem="qfQ-dh-BuZ" secondAttribute="top" id="hn1-nB-qB0"/>
-                            <constraint firstItem="qfQ-dh-BuZ" firstAttribute="bottom" secondItem="VvS-vf-VtM" secondAttribute="bottom" id="jZa-PA-Q7d"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="LableInfo" destination="VvS-vf-VtM" id="YF5-4i-UUb"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lZU-dL-pKL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3756.4885496183206" y="2076.7605633802818"/>
-        </scene>
-        <!--Многострочные строки-->
-        <scene sceneID="Esx-8n-shU">
-            <objects>
-                <viewController storyboardIdentifier="multilineLinesViewController" title="Многострочные строки" id="KIR-td-gZh" customClass="multilineLinesViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fKr-Mf-UEF">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkY-dg-U4s">
-                                <rect key="frame" x="16" y="59" width="361" height="759"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="361" id="uWE-EM-rzx"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="2cW-Ne-GTG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="pkY-dg-U4s" firstAttribute="top" secondItem="2cW-Ne-GTG" secondAttribute="top" id="BI9-jv-iFv"/>
-                            <constraint firstItem="pkY-dg-U4s" firstAttribute="leading" secondItem="2cW-Ne-GTG" secondAttribute="leading" constant="16" id="cx0-wc-5yH"/>
-                            <constraint firstItem="2cW-Ne-GTG" firstAttribute="trailing" secondItem="pkY-dg-U4s" secondAttribute="trailing" constant="16" id="ghL-r2-RmS"/>
-                            <constraint firstItem="pkY-dg-U4s" firstAttribute="bottom" secondItem="2cW-Ne-GTG" secondAttribute="bottom" id="pzA-6b-tZZ"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="LableInfo" destination="pkY-dg-U4s" id="pVT-mR-UBB"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tf8-60-CAL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-3147.3282442748091" y="2077.4647887323945"/>
-        </scene>
         <!--Аннотация типов-->
         <scene sceneID="NMf-QE-s04">
             <objects>
@@ -222,12 +152,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8B0-vK-NfL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2564.1221374045799" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="-3756" y="2077"/>
         </scene>
-        <!--Печать Константи Переменных-->
+        <!--Название констант и переменных-->
         <scene sceneID="Bcd-fa-Msc">
             <objects>
-                <viewController storyboardIdentifier="LetAndVarViewController" title="Печать Константи Переменных" id="tsP-RG-oty" customClass="LetAndVarViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LetAndVarViewController" title="Название констант и переменных" id="tsP-RG-oty" customClass="LetAndVarViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yfT-QG-qpo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -257,7 +187,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pXj-Az-prY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1961.0687022900763" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="-3153" y="2077"/>
         </scene>
         <!--Комментарии-->
         <scene sceneID="8iD-o8-5Cx">
@@ -292,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hMB-L8-7OA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1361.0687022900763" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="-2553" y="2077"/>
         </scene>
         <!--Целые числа-->
         <scene sceneID="hMu-J0-kQA">
@@ -327,7 +257,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYV-yG-jKy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-761.06870229007632" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="-1953" y="2077"/>
         </scene>
         <!--Числовые литералы-->
         <scene sceneID="kEk-fk-ZpE">
@@ -362,7 +292,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="su9-6m-OmO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-164.12213740458014" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="-1356" y="2077"/>
         </scene>
         <!--Преобразование числовых типов-->
         <scene sceneID="OCh-sZ-vHl">
@@ -397,7 +327,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RbQ-1m-8Zy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="429.7709923664122" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="-763" y="2077"/>
         </scene>
         <!--Кортежи-->
         <scene sceneID="MK6-NK-reg">
@@ -432,7 +362,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wF2-53-ZvC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1632.824427480916" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="440" y="2077"/>
         </scene>
         <!--Опциональные типы (опционалы)-->
         <scene sceneID="HJJ-FG-QVy">
@@ -467,7 +397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T0T-0t-hSm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2232.8244274809158" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="1040" y="2077"/>
         </scene>
         <!--Утверждения и предусловия-->
         <scene sceneID="I00-GO-oXZ">
@@ -502,7 +432,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SBz-pr-suN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2829.770992366412" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="1637" y="2077"/>
         </scene>
         <!--Логические типы-->
         <scene sceneID="KV8-0M-lhc">
@@ -537,7 +467,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4L8-OW-zhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1032.824427480916" y="2076.7605633802818"/>
+            <point key="canvasLocation" x="-160" y="2077"/>
         </scene>
         <!--Практика-->
         <scene sceneID="aiq-0m-3BP">

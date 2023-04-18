@@ -9,6 +9,8 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
     let tableView = UITableView()
     var readLectures: Set<String> = Set(UserDefaults.standard.stringArray(forKey: "readLectures") ?? [])
     
+    var selectedCells = [IndexPath]()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,9 +19,6 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         self.navigationItem.hidesBackButton = true
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "Назад", style: .plain, target: nil, action: nil)
-        
-        //        navigationController?.navigationBar.prefersLargeTitles = true
-        //        navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)]
         
         tableView.register(LearnTableViewCell.self, forCellReuseIdentifier: "cell")
         
@@ -40,7 +39,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             
             
             self.cells = [
-                "Основы": ["О Swift", "Переменные и Константы", "Типы данных", "Многострочные строки",  "Аннотация типов", "Печать констант и переменных", "Комментарии", "Целые числа",
+                "Основы": ["О Swift", "Переменные и Константы", "Аннотация типов", "Название констант и переменных", "Комментарии", "Целые числа",
                            "Числовые литералы", "Преобразования числовых типов", "Логические типы", "Кортежи", "Опциональные типы (опционалы)", "Утверждения и предусловия"],
                 "Базовые операторы": ["Базовые операторы", "Оператор присваивания", "Арифметические операторы", "Cоставные операторы присваивания", "Операторы сравнения", "Тернарный условный оператор", "Оператор объединения по nil", "Операторы диапазона", "Логические операторы"],
                 "Строки и символы": ["Строки и символы", "Строковые литералы", "Инициализация пустых строк", "Конкатенация строк и символов", "Интерполяция строк", "Юникод (Unicode)",
@@ -168,19 +167,12 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let lectureVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "LectureViewController") as! LectureViewController
             navigationController?.pushViewController(lectureVC, animated: true)
             
-        case "Типы данных":
-            let dataTypesLectureVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "dataTypesViewController") as! dataTypesViewController
-            navigationController?.pushViewController(dataTypesLectureVC, animated: true)
-            
-        case "Многострочные строки":
-            let multilineLinesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "multilineLinesViewController") as! multilineLinesViewController
-            navigationController?.pushViewController(multilineLinesVC, animated: true)
             
         case "Аннотация типов":
             let AnnotationOfTypesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "AnnotationOfTypesViewController") as! AnnotationOfTypesViewController
             navigationController?.pushViewController(AnnotationOfTypesVC, animated: true)
             
-        case "Печать констант и переменных":
+        case "Название констант и переменных":
             let LetAndVarVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "LetAndVarViewController") as! LetAndVarViewController
             navigationController?.pushViewController(LetAndVarVC, animated: true)
             
