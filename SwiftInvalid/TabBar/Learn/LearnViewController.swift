@@ -287,7 +287,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let SubstringsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "SubstringsViewController") as! SubstringsViewController
             navigationController?.pushViewController(SubstringsVC, animated: true)
             
-        case "Стравнение строк":
+        case "Сравнение строк":
             let StringAlignmentVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "StringAlignmentViewController") as! StringAlignmentViewController
             navigationController?.pushViewController(StringAlignmentVC, animated: true)
             
