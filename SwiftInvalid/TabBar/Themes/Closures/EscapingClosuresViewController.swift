@@ -1,17 +1,17 @@
 //
-//  ClosingExpressionsViewController.swift
+//  EscapingClosuresViewController.swift
 //  SwiftInvalid
 //
-//  Created by admin on 28.03.2023.
+//  Created by admin on 20.04.2023.
 //
 
 import UIKit
 
-class ClosingExpressionsViewController: UIViewController {
-
+class EscapingClosuresViewController: UIViewController {
+    
     @IBOutlet var LableInfo: UILabel!
     
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,14 +21,14 @@ class ClosingExpressionsViewController: UIViewController {
             // Создание UIScrollView
             let scrollView = UIScrollView(frame: view.bounds)
             scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            scrollView.contentSize = CGSize(width: view.bounds.width, height: 3100)
+            scrollView.contentSize = CGSize(width: view.bounds.width, height: 2100)
             scrollView.isScrollEnabled = true
             
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Замыкающие выражения")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 3000)
+        let originalImage = UIImage(named: "Сбегающие замыкания")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 2000)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 
@@ -42,7 +42,7 @@ class ClosingExpressionsViewController: UIViewController {
             
             // Создание кнопки
             let button = UIButton(type: .system)
-            button.setTitle("Последующее замыкание", for: .normal)
+            button.setTitle("Автозамыкания (autoclosures)", for: .normal)
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
             button.frame = CGRect(x: scrollView.contentSize.width - 300, y: scrollView.contentSize.height, width: 300, height: -100)
@@ -51,7 +51,7 @@ class ClosingExpressionsViewController: UIViewController {
         
         // действие при нажатии на кнопку
         @objc func buttonTapped() {
-            let NextVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "SubsequentClosuresViewController") as! SubsequentClosuresViewController
+            let NextVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "AutoclosuresViewController") as! AutoclosuresViewController
             navigationController?.pushViewController(NextVC, animated: true)
      
         }

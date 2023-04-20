@@ -46,9 +46,9 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
                                      "Подсчет символов", "Доступ и изменение строки", "Подстроки", "Сравнение строк"],
                 "Типы коллекций": ["Типы коллекций", "Массивы", "Множества", "Словари"],
                 "Управление потоком": ["Управление потоком", "Циклы For-in", "Циклы While", "Условные инструкции", "Операторы передачи управления", "Ранний выход и Проверка доступности API"],
-                "Функции": ["Функции", "Объявление и вызов функций", "Параметры функции и возвращаемые значения", "Ярлыки аргументов и имена параметров функций", "Функциональные типы"],
-                "Замыкания": ["Замыкания", "Замыкающие выражения", "Последующее замыкание", "Захват значений", "Замыкания - ссылочный тип"],
-                "Перечисления": ["Перечисления", "Синтаксис перечислений", "Использование перечислений с инструкцией switch", "Итерация по кейсам перечисления", "Ассоциативные значения", "Исходные значения"],
+                "Функции": ["Функции", "Объявление и вызов функций", "Параметры функции и возвращаемые значения", "Ярлыки аргументов и имена параметров функций", "Функциональные типы", "Вложенные функции"],
+                "Замыкания": ["Замыкания", "Замыкающие выражения", "Последующее замыкание", "Захват значений", "Замыкания - ссылочный тип", "Сбегающие замыкания", "Автозамыкания (autoclosures)"],
+                "Перечисления": ["Перечисления", "Синтаксис перечислений", "Использование перечислений с инструкцией switch", "Итерация по кейсам перечисления", "Ассоциативные значения", "Исходные значения", "Рекурсивные перечисления"],
                 "Структуры и классы": ["Структуры и классы", "Сравнение классов и структур", "Структуры и перечисления - типы значения", "Классы - ссылочный тип"],
                 "Свойства": ["Свойства", "Свойства хранения", "Вычисляемые свойства", "Наблюдатели свойства", "Обертки для свойств", "Глобальные и локальные переменные", "Свойства типа",],
                 "Методы": ["Методы", "Методы экземпляра", "Методы типа",],
@@ -365,6 +365,10 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let FunctionalTypesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "FunctionalTypesViewController") as! FunctionalTypesViewController
             navigationController?.pushViewController(FunctionalTypesVC, animated: true)
             
+        case "Вложенные функции":
+            let FunctionalTypesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "FunctionalTypesViewController") as! FunctionalTypesViewController
+            navigationController?.pushViewController(FunctionalTypesVC, animated: true)
+            
             
             
             
@@ -378,7 +382,7 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let ClosingExpressionsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ClosingExpressionsViewController") as! ClosingExpressionsViewController
             navigationController?.pushViewController(ClosingExpressionsVC, animated: true)
             
-        case "Последующее выражения":
+        case "Последующее замыкание":
             let SubsequentClosuresVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "SubsequentClosuresViewController") as! SubsequentClosuresViewController
             navigationController?.pushViewController(SubsequentClosuresVC, animated: true)
             
@@ -390,11 +394,19 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let ReferentialClosuresVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ReferentialClosuresViewController") as! ReferentialClosuresViewController
             navigationController?.pushViewController(ReferentialClosuresVC, animated: true)
             
+        case "Сбегающие замыкания":
+            let ReferentialClosuresVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "EscapingClosuresViewController") as! EscapingClosuresViewController
+            navigationController?.pushViewController(ReferentialClosuresVC, animated: true)
+            
+        case "Автозамыкания (autoclosures)":
+            let ReferentialClosuresVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "AutoclosuresViewController") as! AutoclosuresViewController
+            navigationController?.pushViewController(ReferentialClosuresVC, animated: true)
+            
             
             
             // MARK: Перечесления
             
-        case "Перечесления":
+        case "Перечисления":
             let TransfersVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "TransfersViewController") as! TransfersViewController
             navigationController?.pushViewController(TransfersVC, animated: true)
             
@@ -417,6 +429,11 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
         case "Исходные значения":
             let InitialValuesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "InitialValuesViewController") as! InitialValuesViewController
             navigationController?.pushViewController(InitialValuesVC, animated: true)
+            
+        case "Рекурсивные перечисления":
+            let InitialValuesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "RecursiveEnumerationsViewController") as! RecursiveEnumerationsViewController
+            navigationController?.pushViewController(InitialValuesVC, animated: true)
+            
             
             
             // MARK: Структыра и классы

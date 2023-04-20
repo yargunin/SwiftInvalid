@@ -5559,6 +5559,146 @@
             </objects>
             <point key="canvasLocation" x="-2616" y="20265"/>
         </scene>
+        <!--Вложенные функции-->
+        <scene sceneID="UgC-NI-OQ4">
+            <objects>
+                <viewController storyboardIdentifier="NestedFunctionsViewController" title="Вложенные функции" id="gZO-Uj-l1s" customClass="NestedFunctionsViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NLT-yh-3HF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUA-1c-fEw">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="hAV-Hu-VMA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1z5-Gd-epd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1z5-Gd-epd" firstAttribute="trailing" secondItem="PUA-1c-fEw" secondAttribute="trailing" constant="16" id="QYA-ev-Ogn"/>
+                            <constraint firstItem="PUA-1c-fEw" firstAttribute="bottom" secondItem="1z5-Gd-epd" secondAttribute="bottom" id="gHF-Ho-RAS"/>
+                            <constraint firstItem="PUA-1c-fEw" firstAttribute="top" secondItem="1z5-Gd-epd" secondAttribute="top" id="nf6-ZT-GDd"/>
+                            <constraint firstItem="PUA-1c-fEw" firstAttribute="leading" secondItem="1z5-Gd-epd" secondAttribute="leading" constant="16" id="vmU-cH-B6z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="PUA-1c-fEw" id="uSl-cZ-J8h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22w-4f-gMQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1961" y="5642"/>
+        </scene>
+        <!--Автозамыкания (autoclosures)-->
+        <scene sceneID="NNY-A5-fHT">
+            <objects>
+                <viewController storyboardIdentifier="AutoclosuresViewController" title="Автозамыкания (autoclosures)" id="fOd-r1-UbB" customClass="AutoclosuresViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MuJ-xy-6pI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDW-lh-cqN">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="w4f-0i-mFZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ElI-vC-hcN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hDW-lh-cqN" firstAttribute="bottom" secondItem="ElI-vC-hcN" secondAttribute="bottom" id="66r-GQ-KoP"/>
+                            <constraint firstItem="ElI-vC-hcN" firstAttribute="trailing" secondItem="hDW-lh-cqN" secondAttribute="trailing" constant="16" id="dR6-wk-PgV"/>
+                            <constraint firstItem="hDW-lh-cqN" firstAttribute="leading" secondItem="ElI-vC-hcN" secondAttribute="leading" constant="16" id="iDK-rI-VtD"/>
+                            <constraint firstItem="hDW-lh-cqN" firstAttribute="top" secondItem="ElI-vC-hcN" secondAttribute="top" id="xiL-8g-Rra"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="hDW-lh-cqN" id="6Ux-my-0Xi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9gg-K6-Tx1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1376" y="6354"/>
+        </scene>
+        <!--Сбегающие замыкания-->
+        <scene sceneID="cyO-5T-mlU">
+            <objects>
+                <viewController storyboardIdentifier="EscapingClosuresViewController" title="Сбегающие замыкания" id="lo2-hl-83j" customClass="EscapingClosuresViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AnW-Ue-AxU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWC-hM-9Uj">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="QOM-1e-85n"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jb2-iH-3hu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hWC-hM-9Uj" firstAttribute="bottom" secondItem="jb2-iH-3hu" secondAttribute="bottom" id="H6Z-EF-TSG"/>
+                            <constraint firstItem="jb2-iH-3hu" firstAttribute="trailing" secondItem="hWC-hM-9Uj" secondAttribute="trailing" constant="16" id="JUp-Hg-jW4"/>
+                            <constraint firstItem="hWC-hM-9Uj" firstAttribute="leading" secondItem="jb2-iH-3hu" secondAttribute="leading" constant="16" id="UsI-Mf-kBh"/>
+                            <constraint firstItem="hWC-hM-9Uj" firstAttribute="top" secondItem="jb2-iH-3hu" secondAttribute="top" id="fgl-oy-JTc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="hWC-hM-9Uj" id="uJZ-Df-X67"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dME-VL-a94" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1975" y="6354"/>
+        </scene>
+        <!--Рекурсивные перечисления-->
+        <scene sceneID="si6-Rr-G2G">
+            <objects>
+                <viewController storyboardIdentifier="RecursiveEnumerationsViewController" title="Рекурсивные перечисления" id="ShX-VE-h7R" customClass="RecursiveEnumerationsViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RSS-vE-dA3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrT-p5-nfj">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="4kn-bK-ZaE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oMY-HS-gTr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oMY-HS-gTr" firstAttribute="trailing" secondItem="CrT-p5-nfj" secondAttribute="trailing" constant="16" id="03T-6p-W8C"/>
+                            <constraint firstItem="CrT-p5-nfj" firstAttribute="leading" secondItem="oMY-HS-gTr" secondAttribute="leading" constant="16" id="bEd-O1-apY"/>
+                            <constraint firstItem="CrT-p5-nfj" firstAttribute="top" secondItem="oMY-HS-gTr" secondAttribute="top" id="eOi-qZ-C1q"/>
+                            <constraint firstItem="CrT-p5-nfj" firstAttribute="bottom" secondItem="oMY-HS-gTr" secondAttribute="bottom" id="k2g-VE-zPh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="CrT-p5-nfj" id="NHU-Cv-ycn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lE6-31-2vl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1393" y="7037"/>
+        </scene>
     </scenes>
     <resources>
         <image name="heart-64" width="32" height="32"/>

@@ -89,6 +89,10 @@
 		8448EC0329CF62BF00B88CC0 /* AboutTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8448EC0229CF62BF00B88CC0 /* AboutTypesViewController.swift */; };
 		844DEDF129BA44F20053A2DB /* LectureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844DEDF029BA44F20053A2DB /* LectureViewController.swift */; };
 		845A247D29D98A5B00856684 /* Tests.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845A247C29D98A5B00856684 /* Tests.storyboard */; };
+		845A24A629F1AEDF00856684 /* NestedFunctionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845A24A529F1AEDF00856684 /* NestedFunctionsViewController.swift */; };
+		845E397229F1B639005DB599 /* EscapingClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397129F1B639005DB599 /* EscapingClosuresViewController.swift */; };
+		845E397429F1B665005DB599 /* AutoclosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397329F1B665005DB599 /* AutoclosuresViewController.swift */; };
+		845E397629F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397529F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift */; };
 		84B1CFCB29D5E057003A25A2 /* ExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1CFCA29D5E057003A25A2 /* ExtensionsViewController.swift */; };
 		84B1CFCD29D5E06B003A25A2 /* SyntaxExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1CFCC29D5E06B003A25A2 /* SyntaxExtensionsViewController.swift */; };
 		84B1CFD129D5E0B3003A25A2 /* ExtensionInitializersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1CFD029D5E0B3003A25A2 /* ExtensionInitializersViewController.swift */; };
@@ -306,6 +310,10 @@
 		8448EC0229CF62BF00B88CC0 /* AboutTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTypesViewController.swift; sourceTree = "<group>"; };
 		844DEDF029BA44F20053A2DB /* LectureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureViewController.swift; sourceTree = "<group>"; };
 		845A247C29D98A5B00856684 /* Tests.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tests.storyboard; sourceTree = "<group>"; };
+		845A24A529F1AEDF00856684 /* NestedFunctionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedFunctionsViewController.swift; sourceTree = "<group>"; };
+		845E397129F1B639005DB599 /* EscapingClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosuresViewController.swift; sourceTree = "<group>"; };
+		845E397329F1B665005DB599 /* AutoclosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoclosuresViewController.swift; sourceTree = "<group>"; };
+		845E397529F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveEnumerationsViewController.swift; sourceTree = "<group>"; };
 		84B1CFCA29D5E057003A25A2 /* ExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsViewController.swift; sourceTree = "<group>"; };
 		84B1CFCC29D5E06B003A25A2 /* SyntaxExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxExtensionsViewController.swift; sourceTree = "<group>"; };
 		84B1CFD029D5E0B3003A25A2 /* ExtensionInitializersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionInitializersViewController.swift; sourceTree = "<group>"; };
@@ -618,6 +626,7 @@
 				844849C729D3356A00FC1CF5 /* FunctionParametersViewController.swift */,
 				844849C929D3358D00FC1CF5 /* ArgumentLabelsViewController.swift */,
 				844849CB29D335A500FC1CF5 /* FunctionalTypesViewController.swift */,
+				845A24A529F1AEDF00856684 /* NestedFunctionsViewController.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -630,6 +639,8 @@
 				844849D229D337F400FC1CF5 /* SubsequentClosuresViewController.swift */,
 				844849D429D3380800FC1CF5 /* CapturingValuesViewController.swift */,
 				844849D629D3382E00FC1CF5 /* ReferentialClosuresViewController.swift */,
+				845E397129F1B639005DB599 /* EscapingClosuresViewController.swift */,
+				845E397329F1B665005DB599 /* AutoclosuresViewController.swift */,
 			);
 			path = Closures;
 			sourceTree = "<group>";
@@ -643,6 +654,7 @@
 				844849DF29D3395900FC1CF5 /* CaseByCase ViewController.swift */,
 				844849E129D3397F00FC1CF5 /* AssociativeValuesViewController.swift */,
 				844849E329D3399400FC1CF5 /* InitialValuesViewController.swift */,
+				845E397529F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift */,
 			);
 			path = Transfers;
 			sourceTree = "<group>";
@@ -1222,6 +1234,7 @@
 				84E98A8829D5DCE300E0EA02 /* TypesActionViewController.swift in Sources */,
 				84B1CFDC29D5E2DE003A25A2 /* TypeReturnViewController.swift in Sources */,
 				84B1D00229D5E5C0003A25A2 /* RelatedTypesViewController.swift in Sources */,
+				845E397429F1B665005DB599 /* AutoclosuresViewController.swift in Sources */,
 				84B1D03229D5EA47003A25A2 /* OverflowOperatorsViewController.swift in Sources */,
 				84B1D01129D5E71E003A25A2 /* CyclesClosuresViewController.swift in Sources */,
 				84B1D03629D5EAA0003A25A2 /* OperatorFunctionsViewController.swift in Sources */,
@@ -1245,6 +1258,7 @@
 				84B27D7929C7088F00C840A7 /* Themes.swift in Sources */,
 				844849FC29D33BD600FC1CF5 /* TypePropertiesViewController.swift in Sources */,
 				844849AF29D3317400FC1CF5 /* RangeOperatorViewController.swift in Sources */,
+				845A24A629F1AEDF00856684 /* NestedFunctionsViewController.swift in Sources */,
 				84B1D02B29D5E93E003A25A2 /* LetVarPropSubViewController.swift in Sources */,
 				84E98A4729D5D24300E0EA02 /* DefiningBaseClassViewController.swift in Sources */,
 				8448499829D32DCA00FC1CF5 /* UnicodeViewController.swift in Sources */,
@@ -1335,10 +1349,12 @@
 				8435C06929915D8900413405 /* ProgressViewController.swift in Sources */,
 				84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */,
 				84B1D02529D5E8C7003A25A2 /* ControlSyntaxViewController.swift in Sources */,
+				845E397229F1B639005DB599 /* EscapingClosuresViewController.swift in Sources */,
 				8435C02A2991537700413405 /* AppDelegate.swift in Sources */,
 				844849DC29D3391D00FC1CF5 /* EnumerationSyntaxViewController.swift in Sources */,
 				8435C02C2991537700413405 /* SceneDelegate.swift in Sources */,
 				8435C06729915D7800413405 /* LearnViewController.swift in Sources */,
+				845E397629F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift in Sources */,
 				84E98A4029D5D1A900E0EA02 /* UsingSubscriptViewController.swift in Sources */,
 				84E98A8629D5DCB800E0EA02 /* NestedTypesViewController.swift in Sources */,
 				84B1CFED29D5E401003A25A2 /* CollectionsProtocolTypesViewController.swift in Sources */,
