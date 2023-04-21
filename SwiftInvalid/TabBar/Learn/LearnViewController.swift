@@ -22,7 +22,6 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         tableView.register(LearnTableViewCell.self, forCellReuseIdentifier: "cell")
         
-
         
         
         if self.sections.isEmpty {
@@ -73,6 +72,8 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 "Продвинутые операторы": ["Продвинутые операторы", "Побитовые операторы", "Операторы переполнения", "Приоритет и ассоциативность", "Операторные функции", "Пользовательские операторы"]]
             
         }
+        
+        
         
         
         
