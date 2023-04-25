@@ -21,14 +21,14 @@ class RequiredInitializersViewController: UIViewController {
             // Создание UIScrollView
             let scrollView = UIScrollView(frame: view.bounds)
             scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            scrollView.contentSize = CGSize(width: view.bounds.width, height: 1100)
+            scrollView.contentSize = CGSize(width: view.bounds.width, height: 3100)
             scrollView.isScrollEnabled = true
             
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Предотвращение переопределений")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 400)
+        let originalImage = UIImage(named: "Требуемые инициализаторы")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 3000)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 

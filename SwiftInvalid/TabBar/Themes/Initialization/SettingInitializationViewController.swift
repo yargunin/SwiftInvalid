@@ -21,14 +21,14 @@ class SettingInitializationViewController: UIViewController {
             // Создание UIScrollView
             let scrollView = UIScrollView(frame: view.bounds)
             scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            scrollView.contentSize = CGSize(width: view.bounds.width, height: 1100)
+            scrollView.contentSize = CGSize(width: view.bounds.width, height: 4100)
             scrollView.isScrollEnabled = true
             
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Предотвращение переопределений")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 400)
+        let originalImage = UIImage(named: "Настройка инициализации")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 4000)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 
@@ -45,7 +45,7 @@ class SettingInitializationViewController: UIViewController {
             button.setTitle("Дефолтные инициализаторы", for: .normal)
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
-            button.frame = CGRect(x: scrollView.contentSize.width - 200, y: scrollView.contentSize.height, width: 200, height: -100)
+            button.frame = CGRect(x: scrollView.contentSize.width - 260, y: scrollView.contentSize.height, width: 250, height: -100)
             scrollView.addSubview(button)
         }
         
