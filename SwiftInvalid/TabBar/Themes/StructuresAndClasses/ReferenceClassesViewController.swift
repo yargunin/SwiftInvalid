@@ -21,35 +21,18 @@ class ReferenceClassesViewController: UIViewController {
             // Создание UIScrollView
             let scrollView = UIScrollView(frame: view.bounds)
             scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            scrollView.contentSize = CGSize(width: view.bounds.width, height: 1100)
+            scrollView.contentSize = CGSize(width: view.bounds.width, height: 2100)
             scrollView.isScrollEnabled = true
             
            
             
-            LableInfo.text = """
-            Константы и переменные связывают имя (например, maximumNumberOfLoginAttempts или welcomeMessage) со значением определенного типа (например, число 10 или строка "Hello"). Значение константы не может быть изменено после его установки, тогда как переменной может быть установлено другое значение в будущем.
-            
-            Объявление констант и переменных
-            Константы и переменные должны быть объявлены, перед тем как их использовать. Константы объявляются с помощью ключевого слова let, а переменные с помощью var. Вот пример того, как константы и переменные могут быть использованы для отслеживания количества попыток входа, которые совершил пользователь:
-            
-            let maximumNumberOfLoginAttempts = 10
-            var currentLoginAttempt = 0
-            Этот код можно прочесть как:
-            
-            «Объяви новую константу с именем maximumNumberOfLoginAttempts, и задай ей значение 10. Потом, объяви новую переменную с именем currentLoginAttempt, и задай ей начальное значение 0.»
-            
-            В этом примере максимальное количество доступных попыток входа объявлено как константа, потому что максимальное значение никогда не меняется. Счетчик текущего количества попыток входа объявлен как переменная, потому что это значение должно увеличиваться после каждой неудачной попытки входа.
-            
-            Вы можете объявить несколько констант или несколько переменных на одной строке, разделяя их запятыми:
-            
-            var x = 0.0, y = 0.0, z = 0.0
-            Заметка
-            Если хранимое значение в вашем коде не будет меняться, всегда объявляйте его как константу, используя ключевое слово let. Используйте переменные только для хранения значений, которые должны будут меняться.
-            """
-            LableInfo.lineBreakMode = .byWordWrapping
-            LableInfo.font = UIFont.systemFont(ofSize: 17)
-            LableInfo.numberOfLines = 0
-            LableInfo.sizeToFit()
+        let imageAttachment = NSTextAttachment()
+        let originalImage = UIImage(named: "Классы - ссылочный тип")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 2000)
+        imageAttachment.image = resizedImage
+        let imageString = NSAttributedString(attachment: imageAttachment)
+
+        LableInfo.attributedText = imageString
             
             // Добавление UILabel в UIScrollView
             scrollView.addSubview(LableInfo)
@@ -62,7 +45,7 @@ class ReferenceClassesViewController: UIViewController {
             button.setTitle("Свойства", for: .normal)
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
-            button.frame = CGRect(x: scrollView.contentSize.width - 200, y: scrollView.contentSize.height, width: 200, height: -100)
+            button.frame = CGRect(x: scrollView.contentSize.width - 150, y: scrollView.contentSize.height, width: 200, height: -100)
             scrollView.addSubview(button)
         }
         

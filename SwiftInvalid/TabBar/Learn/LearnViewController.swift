@@ -63,7 +63,8 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
                 "Вложенные типы": ["Вложенные типы", "Вложенные типы в действии", "Ссылка на вложенные типы"],
                 "Расширения": ["Расширения", "Синтаксис расширений", "Вычисляемые свойства в расширениях", "Инициализаторы в расширениях", "Методы в расширениях"],
                 "Непрозрачные типы": ["Непрозрачные типы", "Проблема, которую решают непрозрачные типы", "Возвращение непрозрачного типа", "Различия между типом протокола и непрозрачным типом"],
-                "Протоколы": ["Протоколы", "Синтаксис протокола", "Требование свойств", "Требование методов", "Требование инициализатора", "Протоколы как типы", "Коллекции типов протокола", "Композиция протоколов", "Проверка соответствия протоколу", "Опциональные требования протокола", "Расширения протоколов"],
+                "Протоколы": ["Протоколы", "Синтаксис протокола", "Требование свойств", "Требование методов", "Требования изменяющих методов", "Требование инициализатора", "Протоколы как типы",
+                             "Делегирование", "Добавление реализации протокола через расширение", "Принятие протокола через синтезированную реализацию", "Коллекции типов протокола", "Наследование протокола", "Композиция протоколов", "Проверка соответствия протоколу", "Опциональные требования протокола", "Расширения протоколов"],
                 "Универсальные шаблоны": ["Универсальные шаблоны", "Проблема, которую решают универсальные шаблоны", "Универсальные функции", "Параметры типа", "Расширяем универсальный тип", "Связанные типы", "Оговорка where"],
                 "Автоматический подсчет ссылок (ARC)": ["О ARC", "Работа ARC", "ARC в действии", "Циклы сильных ссылок между экземплярами классов", "Замена циклов сильных ссылок между экземплярами классов",
                                                         "Циклы сильных ссылок в замыканиях", "Замена циклов сильных ссылок в замыканиях"],
@@ -730,6 +731,10 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let MethodsRequirementVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "MethodsRequirementViewController") as! MethodsRequirementViewController
             navigationController?.pushViewController(MethodsRequirementVC, animated: true)
             
+        case "Требования изменяющих методов":
+            let RequirementsModifyingVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "RequirementsModifyingMethodsViewController") as! RequirementsModifyingMethodsViewController
+            navigationController?.pushViewController(RequirementsModifyingVC, animated: true)
+            
         case "Требование инициализатора":
             let InitializerRequirementVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "InitializerRequirementViewController") as! InitializerRequirementViewController
             navigationController?.pushViewController(InitializerRequirementVC, animated: true)
@@ -738,9 +743,25 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
             let ProtocolsAsTypesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ProtocolsAsTypesViewController") as! ProtocolsAsTypesViewController
             navigationController?.pushViewController(ProtocolsAsTypesVC, animated: true)
             
+        case "Делегирование":
+            let DelegationVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "DelegationViewController") as! DelegationViewController
+            navigationController?.pushViewController(DelegationVC, animated: true)
+            
+        case "Добавление реализации протокола через расширение":
+            let AddingProtocolVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "AddingProtocolViewController") as! AddingProtocolViewController
+            navigationController?.pushViewController(AddingProtocolVC, animated: true)
+            
+        case "Принятие протокола через синтезированную реализацию":
+            let ProtocolAdoptionVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ProtocolAdoptionViewController") as! ProtocolAdoptionViewController
+            navigationController?.pushViewController(ProtocolAdoptionVC, animated: true)
+            
         case "Коллекции типов протокола":
             let CollectionsProtocolTypesVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "CollectionsProtocolTypesViewController") as! CollectionsProtocolTypesViewController
             navigationController?.pushViewController(CollectionsProtocolTypesVC, animated: true)
+            
+        case "Наследование протокола":
+            let ProtocolInheritanceVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "ProtocolInheritanceViewController") as! ProtocolInheritanceViewController
+            navigationController?.pushViewController(ProtocolInheritanceVC, animated: true)
             
         case "Композиция протоколов":
             let CompositionProtocolsVC = UIStoryboard(name: "TabBar", bundle: nil).instantiateViewController(withIdentifier: "CompositionProtocolsViewController") as! CompositionProtocolsViewController

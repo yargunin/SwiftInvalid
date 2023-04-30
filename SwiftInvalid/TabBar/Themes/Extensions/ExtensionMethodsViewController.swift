@@ -21,14 +21,14 @@ class ExtensionMethodsViewController: UIViewController {
             // Создание UIScrollView
             let scrollView = UIScrollView(frame: view.bounds)
             scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            scrollView.contentSize = CGSize(width: view.bounds.width, height: 1100)
+            scrollView.contentSize = CGSize(width: view.bounds.width, height: 3100)
             scrollView.isScrollEnabled = true
             
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Ссылка на вложенные типы")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 300)
+        let originalImage = UIImage(named: "Методы в расширениях")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 3000)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 

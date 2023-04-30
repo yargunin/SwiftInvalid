@@ -4262,7 +4262,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="at9-mx-YAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2019" y="16953"/>
+            <point key="canvasLocation" x="-1422" y="16954"/>
         </scene>
         <!--Коллекции типов протокола-->
         <scene sceneID="DM3-Gs-5rS">
@@ -4297,7 +4297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9pE-0V-JT4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1439" y="16953"/>
+            <point key="canvasLocation" x="979" y="16953"/>
         </scene>
         <!--Требование инициализатора-->
         <scene sceneID="3kT-31-A1V">
@@ -4332,7 +4332,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ARF-B4-Qcw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2616" y="16953"/>
+            <point key="canvasLocation" x="-2019" y="16954"/>
         </scene>
         <!--Композиция протоколов-->
         <scene sceneID="20L-BC-Zdw">
@@ -4367,7 +4367,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1cD-lO-bdT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-854" y="16953"/>
+            <point key="canvasLocation" x="2302" y="16944"/>
         </scene>
         <!--Опциональные требования протокола-->
         <scene sceneID="Azd-CT-2cQ">
@@ -4402,7 +4402,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9MR-Af-uEf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="346" y="16953"/>
+            <point key="canvasLocation" x="3502" y="16944"/>
         </scene>
         <!--Расширения протоколов-->
         <scene sceneID="40M-Ip-LFK">
@@ -4437,7 +4437,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jjT-71-k0b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="926" y="16953"/>
+            <point key="canvasLocation" x="4082" y="16944"/>
         </scene>
         <!--Проверка соответствия протоколу-->
         <scene sceneID="v5b-o2-sd8">
@@ -4472,7 +4472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TbE-UW-gcJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-251" y="16953"/>
+            <point key="canvasLocation" x="2902" y="16944"/>
         </scene>
         <!--Проблема, которую решают универсальные шаблоны-->
         <scene sceneID="3l2-Nl-F9M">
@@ -4647,7 +4647,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HAv-di-PVT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2018" y="17608"/>
+            <point key="canvasLocation" x="-2019" y="17608"/>
         </scene>
         <!--Оговорка where-->
         <scene sceneID="sPP-LK-usj">
@@ -4682,7 +4682,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wt3-7h-Tzt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1439" y="17608"/>
+            <point key="canvasLocation" x="-1440" y="17608"/>
         </scene>
         <!--Расширяем универсальный тип-->
         <scene sceneID="k43-oe-IdX">
@@ -4717,7 +4717,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GlZ-1G-SOZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2615" y="17608"/>
+            <point key="canvasLocation" x="-2616" y="17608"/>
         </scene>
         <!--Работа ARC-->
         <scene sceneID="j6k-CV-6bX">
@@ -5698,6 +5698,181 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lE6-31-2vl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1393" y="7037"/>
+        </scene>
+        <!--Требования изменяющих методов-->
+        <scene sceneID="Mbm-c9-UzY">
+            <objects>
+                <viewController storyboardIdentifier="RequirementsModifyingMethodsViewController" title="Требования изменяющих методов" id="v62-Pf-mbc" customClass="RequirementsModifyingMethodsViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="duK-8P-428">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4v8-AB-9Bu">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="Ntb-vi-23j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="49J-fG-iAs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4v8-AB-9Bu" firstAttribute="leading" secondItem="49J-fG-iAs" secondAttribute="leading" constant="16" id="7ta-RP-uXi"/>
+                            <constraint firstItem="49J-fG-iAs" firstAttribute="trailing" secondItem="4v8-AB-9Bu" secondAttribute="trailing" constant="16" id="XPp-Jw-nxB"/>
+                            <constraint firstItem="4v8-AB-9Bu" firstAttribute="top" secondItem="49J-fG-iAs" secondAttribute="top" id="oDW-bC-1Va"/>
+                            <constraint firstItem="4v8-AB-9Bu" firstAttribute="bottom" secondItem="49J-fG-iAs" secondAttribute="bottom" id="oJP-xR-zGs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="4v8-AB-9Bu" id="WjF-fn-fNC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0oK-CH-HTE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2616" y="16953"/>
+        </scene>
+        <!--Делегирование-->
+        <scene sceneID="rDc-U1-BFe">
+            <objects>
+                <viewController storyboardIdentifier="DelegationViewController" title="Делегирование" id="4ws-qt-A6c" customClass="DelegationViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U59-Uy-M4I">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egH-GV-AOE">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="aXS-Vz-rns"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R0d-LX-G9E"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="egH-GV-AOE" firstAttribute="bottom" secondItem="R0d-LX-G9E" secondAttribute="bottom" id="679-OQ-9qQ"/>
+                            <constraint firstItem="egH-GV-AOE" firstAttribute="leading" secondItem="R0d-LX-G9E" secondAttribute="leading" constant="16" id="DF2-CI-xbP"/>
+                            <constraint firstItem="R0d-LX-G9E" firstAttribute="trailing" secondItem="egH-GV-AOE" secondAttribute="trailing" constant="16" id="N4S-AQ-wUA"/>
+                            <constraint firstItem="egH-GV-AOE" firstAttribute="top" secondItem="R0d-LX-G9E" secondAttribute="top" id="X4X-25-yf3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="egH-GV-AOE" id="Ef8-ug-Gu6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luc-Jh-Hdr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-821" y="16953"/>
+        </scene>
+        <!--Добавление реализации протокола через расширение-->
+        <scene sceneID="LEo-vd-92V">
+            <objects>
+                <viewController storyboardIdentifier="AddingProtocolViewController" title="Добавление реализации протокола через расширение" id="SBF-cf-C1v" customClass="AddingProtocolViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ab1-1d-5GP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pye-u9-9Gb">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="5cz-Bg-WxD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7Nm-pP-ZGR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pye-u9-9Gb" firstAttribute="top" secondItem="7Nm-pP-ZGR" secondAttribute="top" id="2wV-gt-dUg"/>
+                            <constraint firstItem="7Nm-pP-ZGR" firstAttribute="trailing" secondItem="Pye-u9-9Gb" secondAttribute="trailing" constant="16" id="4Qb-KI-uAZ"/>
+                            <constraint firstItem="Pye-u9-9Gb" firstAttribute="bottom" secondItem="7Nm-pP-ZGR" secondAttribute="bottom" id="qLu-Dj-dQk"/>
+                            <constraint firstItem="Pye-u9-9Gb" firstAttribute="leading" secondItem="7Nm-pP-ZGR" secondAttribute="leading" constant="16" id="urU-gm-MEW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="Pye-u9-9Gb" id="vno-zN-jo9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zfr-qD-hPS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-224" y="16954"/>
+        </scene>
+        <!--Принятие протокола через синтезированную реализацию-->
+        <scene sceneID="q7l-6O-2zC">
+            <objects>
+                <viewController storyboardIdentifier="ProtocolAdoptionViewController" title="Принятие протокола через синтезированную реализацию" id="kwI-v1-2jX" customClass="ProtocolAdoptionViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ij8-xC-uXG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkP-gK-Col">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="XNo-v7-OOI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IUw-r9-LXq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IUw-r9-LXq" firstAttribute="trailing" secondItem="gkP-gK-Col" secondAttribute="trailing" constant="16" id="Fh0-OW-Q7z"/>
+                            <constraint firstItem="gkP-gK-Col" firstAttribute="bottom" secondItem="IUw-r9-LXq" secondAttribute="bottom" id="HDH-5C-FXi"/>
+                            <constraint firstItem="gkP-gK-Col" firstAttribute="top" secondItem="IUw-r9-LXq" secondAttribute="top" id="WhH-L3-nLP"/>
+                            <constraint firstItem="gkP-gK-Col" firstAttribute="leading" secondItem="IUw-r9-LXq" secondAttribute="leading" constant="16" id="d1l-Zf-1Ac"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="gkP-gK-Col" id="Nre-Se-bPH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q07-VV-zpE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="16954"/>
+        </scene>
+        <!--Наследование протокола-->
+        <scene sceneID="3af-0L-Xri">
+            <objects>
+                <viewController storyboardIdentifier="ProtocolInheritanceViewController" title="Наследование протокола" id="Zan-QL-dCP" customClass="ProtocolInheritanceViewController" customModule="SwiftInvalid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="89I-eU-pR7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gs0-jJ-fXf">
+                                <rect key="frame" x="16" y="59" width="361" height="759"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="361" id="xmd-wD-tD7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cx7-Zr-M29"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cx7-Zr-M29" firstAttribute="trailing" secondItem="Gs0-jJ-fXf" secondAttribute="trailing" constant="16" id="dBg-E4-wvA"/>
+                            <constraint firstItem="Gs0-jJ-fXf" firstAttribute="leading" secondItem="cx7-Zr-M29" secondAttribute="leading" constant="16" id="jYu-0a-laV"/>
+                            <constraint firstItem="Gs0-jJ-fXf" firstAttribute="bottom" secondItem="cx7-Zr-M29" secondAttribute="bottom" id="l2U-wG-7Fr"/>
+                            <constraint firstItem="Gs0-jJ-fXf" firstAttribute="top" secondItem="cx7-Zr-M29" secondAttribute="top" id="rfF-qk-n13"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="LableInfo" destination="Gs0-jJ-fXf" id="8l3-eU-n6X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wk7-uZ-2Hv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1581" y="16953"/>
         </scene>
     </scenes>
     <resources>

@@ -21,14 +21,14 @@ class ExtensionsViewController: UIViewController {
             // Создание UIScrollView
             let scrollView = UIScrollView(frame: view.bounds)
             scrollView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-            scrollView.contentSize = CGSize(width: view.bounds.width, height: 1100)
+            scrollView.contentSize = CGSize(width: view.bounds.width, height: 800)
             scrollView.isScrollEnabled = true
             
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Ссылка на вложенные типы")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 300)
+        let originalImage = UIImage(named: "Расширения")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 700)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 
@@ -45,7 +45,7 @@ class ExtensionsViewController: UIViewController {
             button.setTitle("Синтаксис расширений", for: .normal)
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
-            button.frame = CGRect(x: scrollView.contentSize.width - 200, y: scrollView.contentSize.height, width: 200, height: -100)
+            button.frame = CGRect(x: scrollView.contentSize.width - 220, y: scrollView.contentSize.height, width: 200, height: -100)
             scrollView.addSubview(button)
         }
         

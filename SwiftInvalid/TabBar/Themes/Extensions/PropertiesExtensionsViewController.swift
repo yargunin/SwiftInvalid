@@ -27,8 +27,8 @@ class PropertiesExtensionsViewController: UIViewController {
            
             
         let imageAttachment = NSTextAttachment()
-        let originalImage = UIImage(named: "Ссылка на вложенные типы")
-        let resizedImage = originalImage?.resize(toWidth: 365, height: 300)
+        let originalImage = UIImage(named: "Вычисляемые свойства в расширениях")
+        let resizedImage = originalImage?.resize(toWidth: 365, height: 1000)
         imageAttachment.image = resizedImage
         let imageString = NSAttributedString(attachment: imageAttachment)
 
@@ -45,7 +45,7 @@ class PropertiesExtensionsViewController: UIViewController {
             button.setTitle("Инициализаторы в расширениях", for: .normal)
             button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
-            button.frame = CGRect(x: scrollView.contentSize.width - 200, y: scrollView.contentSize.height, width: 200, height: -100)
+            button.frame = CGRect(x: scrollView.contentSize.width - 300, y: scrollView.contentSize.height, width: 300, height: -100)
             scrollView.addSubview(button)
         }
         

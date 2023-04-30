@@ -93,6 +93,11 @@
 		845E397229F1B639005DB599 /* EscapingClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397129F1B639005DB599 /* EscapingClosuresViewController.swift */; };
 		845E397429F1B665005DB599 /* AutoclosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397329F1B665005DB599 /* AutoclosuresViewController.swift */; };
 		845E397629F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397529F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift */; };
+		845E397829FACAEE005DB599 /* RequirementsModifyingMethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397729FACAEE005DB599 /* RequirementsModifyingMethodsViewController.swift */; };
+		845E397A29FAD340005DB599 /* DelegationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397929FAD340005DB599 /* DelegationViewController.swift */; };
+		845E397C29FAD70B005DB599 /* AddingProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397B29FAD70B005DB599 /* AddingProtocolViewController.swift */; };
+		845E397E29FAD8BC005DB599 /* ProtocolAdoptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397D29FAD8BC005DB599 /* ProtocolAdoptionViewController.swift */; };
+		845E398029FADB31005DB599 /* ProtocolInheritanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E397F29FADB31005DB599 /* ProtocolInheritanceViewController.swift */; };
 		84B1CFCB29D5E057003A25A2 /* ExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1CFCA29D5E057003A25A2 /* ExtensionsViewController.swift */; };
 		84B1CFCD29D5E06B003A25A2 /* SyntaxExtensionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1CFCC29D5E06B003A25A2 /* SyntaxExtensionsViewController.swift */; };
 		84B1CFD129D5E0B3003A25A2 /* ExtensionInitializersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1CFD029D5E0B3003A25A2 /* ExtensionInitializersViewController.swift */; };
@@ -314,6 +319,11 @@
 		845E397129F1B639005DB599 /* EscapingClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscapingClosuresViewController.swift; sourceTree = "<group>"; };
 		845E397329F1B665005DB599 /* AutoclosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoclosuresViewController.swift; sourceTree = "<group>"; };
 		845E397529F1BFF2005DB599 /* RecursiveEnumerationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveEnumerationsViewController.swift; sourceTree = "<group>"; };
+		845E397729FACAEE005DB599 /* RequirementsModifyingMethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementsModifyingMethodsViewController.swift; sourceTree = "<group>"; };
+		845E397929FAD340005DB599 /* DelegationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegationViewController.swift; sourceTree = "<group>"; };
+		845E397B29FAD70B005DB599 /* AddingProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingProtocolViewController.swift; sourceTree = "<group>"; };
+		845E397D29FAD8BC005DB599 /* ProtocolAdoptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolAdoptionViewController.swift; sourceTree = "<group>"; };
+		845E397F29FADB31005DB599 /* ProtocolInheritanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolInheritanceViewController.swift; sourceTree = "<group>"; };
 		84B1CFCA29D5E057003A25A2 /* ExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsViewController.swift; sourceTree = "<group>"; };
 		84B1CFCC29D5E06B003A25A2 /* SyntaxExtensionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyntaxExtensionsViewController.swift; sourceTree = "<group>"; };
 		84B1CFD029D5E0B3003A25A2 /* ExtensionInitializersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionInitializersViewController.swift; sourceTree = "<group>"; };
@@ -778,9 +788,14 @@
 				84B1CFE229D5E389003A25A2 /* ProtocolSyntaxViewController.swift */,
 				84B1CFE429D5E39E003A25A2 /* PropertyRequirementViewController.swift */,
 				84B1CFE629D5E3B0003A25A2 /* MethodsRequirementViewController.swift */,
+				845E397729FACAEE005DB599 /* RequirementsModifyingMethodsViewController.swift */,
 				84B1CFE829D5E3C3003A25A2 /* InitializerRequirementViewController.swift */,
 				84B1CFEA29D5E3DD003A25A2 /* ProtocolsAsTypesViewController.swift */,
+				845E397929FAD340005DB599 /* DelegationViewController.swift */,
+				845E397B29FAD70B005DB599 /* AddingProtocolViewController.swift */,
+				845E397D29FAD8BC005DB599 /* ProtocolAdoptionViewController.swift */,
 				84B1CFEC29D5E401003A25A2 /* CollectionsProtocolTypesViewController.swift */,
+				845E397F29FADB31005DB599 /* ProtocolInheritanceViewController.swift */,
 				84B1CFEE29D5E415003A25A2 /* CompositionProtocolsViewController.swift */,
 				84B1CFF029D5E429003A25A2 /* CheckingProtocolsViewController.swift */,
 				84B1CFF229D5E443003A25A2 /* OptionalRequirementsViewController.swift */,
@@ -1221,6 +1236,7 @@
 				844849E429D3399400FC1CF5 /* InitialValuesViewController.swift in Sources */,
 				84E98A5429D5D40E00E0EA02 /* SettingInitializationViewController.swift in Sources */,
 				84B1CFE729D5E3B0003A25A2 /* MethodsRequirementViewController.swift in Sources */,
+				845E397C29FAD70B005DB599 /* AddingProtocolViewController.swift in Sources */,
 				84C6D4BF29CEED2A0057A162 /* DictionariesViewController.swift in Sources */,
 				84B1CFFA29D5E564003A25A2 /* UniversalSolveViewController.swift in Sources */,
 				844849DE29D3393B00FC1CF5 /* UsingEnumerationsViewController.swift in Sources */,
@@ -1296,6 +1312,7 @@
 				84B1CFFC29D5E576003A25A2 /* UniversalFunctionsViewController.swift in Sources */,
 				84E98A5C29D5D48600E0EA02 /* FailingInitializersViewController.swift in Sources */,
 				844849E929D33A5800FC1CF5 /* ClassComparisonViewController.swift in Sources */,
+				845E398029FADB31005DB599 /* ProtocolInheritanceViewController.swift in Sources */,
 				8435C06B29915D9900413405 /* ForUsViewController.swift in Sources */,
 				84E98A3529D5CFEB00E0EA02 /* MethodsViewController.swift in Sources */,
 				8435C06D299163E600413405 /* LearnTableViewCell.swift in Sources */,
@@ -1348,8 +1365,10 @@
 				84B1D00729D5E681003A25A2 /* AboutARCViewController.swift in Sources */,
 				8435C06929915D8900413405 /* ProgressViewController.swift in Sources */,
 				84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */,
+				845E397829FACAEE005DB599 /* RequirementsModifyingMethodsViewController.swift in Sources */,
 				84B1D02529D5E8C7003A25A2 /* ControlSyntaxViewController.swift in Sources */,
 				845E397229F1B639005DB599 /* EscapingClosuresViewController.swift in Sources */,
+				845E397A29FAD340005DB599 /* DelegationViewController.swift in Sources */,
 				8435C02A2991537700413405 /* AppDelegate.swift in Sources */,
 				844849DC29D3391D00FC1CF5 /* EnumerationSyntaxViewController.swift in Sources */,
 				8435C02C2991537700413405 /* SceneDelegate.swift in Sources */,
@@ -1367,6 +1386,7 @@
 				8448498E29D32D2300FC1CF5 /* StringsAndSymbolsViewController.swift in Sources */,
 				844849D729D3382E00FC1CF5 /* ReferentialClosuresViewController.swift in Sources */,
 				84E98A6829D5D93D00E0EA02 /* OptionalSequenceViewController.swift in Sources */,
+				845E397E29FAD8BC005DB599 /* ProtocolAdoptionViewController.swift in Sources */,
 				844849F229D33B4400FC1CF5 /* StoragePropertiesViewController.swift in Sources */,
 				84E98A5629D5D43400E0EA02 /* DefaultInitializersViewController.swift in Sources */,
 				84E98A6F29D5DA2900E0EA02 /* HowHandleErrorsViewController.swift in Sources */,
