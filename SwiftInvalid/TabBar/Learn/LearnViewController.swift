@@ -26,6 +26,8 @@ class LearnViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     
+    
+    
     func setupUI() {
         // Настройка Search Bar
         searchBar.searchBarStyle = .default
