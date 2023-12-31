@@ -1,0 +1,6 @@
+framework module Pods_SwiftInvalid {
+  umbrella header "Pods-SwiftInvalid-umbrella.h"
+
+  export *
+  module * { export * }
+}
