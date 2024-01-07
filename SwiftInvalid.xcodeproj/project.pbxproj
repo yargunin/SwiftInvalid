@@ -150,6 +150,7 @@
 		84B1D03829D5EABE003A25A2 /* CustomOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1D03729D5EABE003A25A2 /* CustomOperatorsViewController.swift */; };
 		84B27D7F29C7362C00C840A7 /* logicalTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */; };
 		84B27D8329C7369F00C840A7 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B27D8229C7369F00C840A7 /* ArrayViewController.swift */; };
+		84BD134F2B41FD7E00F92CF7 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD134E2B41FD7E00F92CF7 /* Basics.swift */; };
 		84C6D4BF29CEED2A0057A162 /* DictionariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6D4BE29CEED2A0057A162 /* DictionariesViewController.swift */; };
 		84C6D4C129CEF5130057A162 /* SetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6D4C029CEF5130057A162 /* SetsViewController.swift */; };
 		84E98A3529D5CFEB00E0EA02 /* MethodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E98A3429D5CFEB00E0EA02 /* MethodsViewController.swift */; };
@@ -375,6 +376,7 @@
 		84B1D03729D5EABE003A25A2 /* CustomOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperatorsViewController.swift; sourceTree = "<group>"; };
 		84B27D7E29C7362C00C840A7 /* logicalTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logicalTypesViewController.swift; sourceTree = "<group>"; };
 		84B27D8229C7369F00C840A7 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
+		84BD134E2B41FD7E00F92CF7 /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
 		84C6D4BE29CEED2A0057A162 /* DictionariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionariesViewController.swift; sourceTree = "<group>"; };
 		84C6D4C029CEF5130057A162 /* SetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsViewController.swift; sourceTree = "<group>"; };
 		84E98A3429D5CFEB00E0EA02 /* MethodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodsViewController.swift; sourceTree = "<group>"; };
@@ -744,6 +746,7 @@
 		845A247B29D98A3B00856684 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				84BD134D2B41FC3400F92CF7 /* Basics */,
 				845A247C29D98A5B00856684 /* Tests.storyboard */,
 			);
 			path = Tests;
@@ -888,6 +891,14 @@
 				8448EBFF29CF618300B88CC0 /* StatementsAndPreconditionsViewController.swift */,
 			);
 			path = TheBasics;
+			sourceTree = "<group>";
+		};
+		84BD134D2B41FC3400F92CF7 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				84BD134E2B41FD7E00F92CF7 /* Basics.swift */,
+			);
+			path = Basics;
 			sourceTree = "<group>";
 		};
 		84E98A3329D5CFD900E0EA02 /* Methods */ = {
@@ -1064,7 +1075,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					8435C0252991537700413405 = {
 						CreatedOnToolsVersion = 14.2;
@@ -1340,6 +1351,7 @@
 				84E98A5229D5D3CF00E0EA02 /* SettingValuesViewController.swift in Sources */,
 				844849AD29D3315B00FC1CF5 /* TheUnionOperatorViewController.swift in Sources */,
 				8448EC0329CF62BF00B88CC0 /* AboutTypesViewController.swift in Sources */,
+				84BD134F2B41FD7E00F92CF7 /* Basics.swift in Sources */,
 				84B1D00D29D5E6EB003A25A2 /* StrongLinkCyclesViewController.swift in Sources */,
 				84B1D01629D5E7E3003A25A2 /* StorageSecurityViewController.swift in Sources */,
 				84B1CFFE29D5E589003A25A2 /* TypeParametersViewController.swift in Sources */,
@@ -1466,6 +1478,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1526,6 +1539,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -1565,7 +1579,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-2.SwiftInvalid";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftInvalid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

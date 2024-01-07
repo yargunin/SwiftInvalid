@@ -45,6 +45,14 @@ class StatementsAndPreconditionsViewController: UIViewController {
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17) // Установка жирного шрифта для заголовка кнопки
         button.frame = CGRect(x: scrollView.contentSize.width - 200, y: scrollView.contentSize.height, width: 200, height: -100)
         scrollView.addSubview(button)
+        
+        // Создание кнопки "К Тесту"
+                let testButton = UIButton(type: .system)
+                testButton.setTitle("К Тесту", for: .normal)
+                testButton.addTarget(self, action: #selector(testButtonTapped), for: .touchUpInside)
+                testButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17)
+                testButton.frame = CGRect(x: scrollView.contentSize.width - 400, y: scrollView.contentSize.height , width: 100, height: -100)
+                scrollView.addSubview(testButton)
     }
     
     // действие при нажатии на кнопку
@@ -54,5 +62,9 @@ class StatementsAndPreconditionsViewController: UIViewController {
  
     }
     
+    @objc func testButtonTapped() {
+        let NextVC = UIStoryboard(name: "Tests", bundle: nil).instantiateViewController(withIdentifier: "BasicsViewController") as! BasicsViewController
+        navigationController?.pushViewController(NextVC, animated: true)
+       }
     
 }
